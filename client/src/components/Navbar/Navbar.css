@@ -1,0 +1,36 @@
+.navbar {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#company-logo {
+    height: 4rem;
+    width: 4rem;
+}
+
+#navbar-content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.navbar-content-section{
+    display: flex;
+}
+
+.nav-elements{
+    color:var(--secondary-color);
+    /* margin: 0.5rem; */
+}
+
+#nav-request-service-btn{
+    all: unset;
+    background-color: var(--primary-color);
+    border: 2px solid var(--tertiary-color);
+    color: var(--tertiary-color);
+}
