@@ -23,9 +23,19 @@
     display: flex;
 }
 
+.nav-links{
+    text-decoration: none;
+}
 .nav-elements{
     color:var(--secondary-color);
     /* margin: 0.5rem; */
+}
+
+.dropdown-menu{
+    background-color: var(--secondary-color);
+}
+.dropdown-item {
+    color: var(--accent-color);
 }
 
 #nav-request-service-btn{
