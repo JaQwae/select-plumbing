@@ -1,0 +1,5 @@
+.btn {
+    all: unset;
+    background-color: var(--tertiary-color);
+    padding: 0.4rem;
+}
