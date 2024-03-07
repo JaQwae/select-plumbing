@@ -20,9 +20,9 @@ const Navbar = () => {
               <li className="nav-elements">Services</li>
             </Link>
             <li className=" dropdown nav-links nav-elements">
-              <li className="dropdown-toggle nav-elements" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="dropdown-toggle nav-elements" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Resources
-              </li>
+              </a>
               <ul className="dropdown-menu">
                 <Link to="/blog" className="nav-links ">
                   <li className="nav-elements dropdown-item">Blog</li>
