@@ -1,4 +1,5 @@
 import React from 'react';
+import HomeServiceContainer from './HomeServiceContainer';
 import "./Home.css"
 
 const Home = () => {
@@ -19,7 +20,8 @@ const Home = () => {
       </section>
       <section id='services-container'className='homepage-containers'>
         <div className='service-preview'>
-
+            <HomeServiceContainer/>
+            <button className='home-request-service'>Request Service</button>
         </div>
       </section>
       <section id="review-container" className='homepage-containers'>
