@@ -5,6 +5,7 @@
     background-size: cover;
 }
 
+/*-----Hero Section-----*/
 #hero-container{
     background-image: url("https://images.pexels.com/photos/1089077/pexels-photo-1089077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center;
@@ -34,15 +35,50 @@
     left:75%;
     height: 3rem;
     width: 13rem;
-    text-align: center;
     font-size: 1.5rem;
 }
 
-#hero-btn:hover {
-    background-color: var(--tertiary-color);
-    scale: 1.1;
+/*-----Service Section----- */
+#services-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#service-preview{
+    display: flex;
+}
+
+.single-home-service-container {
+    background-color: var(--primary-color);
+    width: 15rem;
+    height: 25rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+.home-service-image{
+    height: 10rem;
+    width: 8rem;
+}
+
+.single-home-service-container hr {
+    border: 4px solid var(--accent-color);
+    width: 6rem;
+}
+
+#home-request-service{
+    height: 3rem;
+    width: 13rem;
+    font-size: 1.5rem;
+}
+
+/*-----Review Section-----*/
 #review-container {
     background-image: url("https://www.hinsdaledental.com/wp-content/uploads/2020/12/teen-brushing-teeth.jpg");
     display: flex;

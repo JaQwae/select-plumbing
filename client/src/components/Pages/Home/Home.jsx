@@ -19,10 +19,10 @@ const Home = () => {
         </button>
       </section>
       <section id='services-container'className='homepage-containers'>
-        <div className='service-preview'>
-            <HomeServiceContainer/>
-            <button className='home-request-service'>Request Service</button>
+        <div id='service-preview'>
+          <HomeServiceContainer/>
         </div>
+        <button id="home-request-service" className='btn'>View All Services</button>
       </section>
       <section id="review-container" className='homepage-containers'>
         {/* carousel goes here */}
