@@ -95,6 +95,53 @@
 .carousel-inner{
     display: flex;
     justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    position: relative;
+}
+
+.carousel-item.active {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 100%
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    padding: 2rem;
+    transition: ease-in-out 0.3s;
+}
+
+.carousel-item{
+    display:none;
+    transition: ease-in-out 0.3s;
+}
+
+.review-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 33.33%;
+}
+
+.google-logo{
+    width:20rem;
+    padding-bottom: 2rem;
+}
+.google-stars{
+    height:2rem;
+    width: 10rem;
+}
+
+.review-body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.customer-review{
+    display: flex;
+    width:50%;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeServiceContainer from './HomeServiceContainer';
-import "./Home.css"
+import Review from './Review';
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -25,17 +26,35 @@ const Home = () => {
         <button id="home-request-service" className='btn'>View All Services</button>
       </section>
       <section id="review-container" className='homepage-containers'>
-        {/* carousel goes here */}
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <h2>Hola</h2>
+              <div className='review-header'>
+                <img
+                  className='google-logo'
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbapxZNav2xEYhmSHJrJFBqxCPtTMWYh-Y5g&usqp=CAU"
+                  alt="google logo"
+                />
+                <img
+                  className='google-stars'
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRuMFuulTpStB_nkExzl3lDrghpyaSc8zirA&usqp=CAU"
+                  alt="five star"
+                />
+              </div>
+              <div className='review-body'>
+                <p
+                  className='customer-review'
+                >
+                  gljkdljg dlg dfgldkgj addj djg;dljgadkj gdj gdafklgdfjadfgjdfa lgj dfjgdfj gdfjkgdf jgldfgj dflk
+                </p>
+                <p className='customer-name'>-Joey Doey</p>
+              </div>
             </div>
             <div className="carousel-item">
-            <h2>Hello</h2>
+              <h2>Hello</h2>
             </div>
             <div className="carousel-item">
-            <h2>Hi</h2>
+              <Review />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
