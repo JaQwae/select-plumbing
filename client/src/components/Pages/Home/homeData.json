@@ -36,5 +36,20 @@
             "serviceTwo": "This is service 11",
             "serviceThree": "This is service 12"
         }
+    ],
+    
+    "customerReviews": [
+        {
+            "review": "fdafdaf fsdaf sadf sda fs adfsa df sdf fsd f sdafd sff",
+            "name": "Betty Smith"
+        },
+        {
+            "review": "gljkdljg fdasf sdaf asdf asdf sd fsd fsd fds f sdfsdgdgfdgdfzg gdfgadfgdf dlg dfgldkgj addj djg;dljgadkj gdj gdafklgdfjadfgjdfa lgj dfjgdfj gdfjkgdf jgldfgj dflk",
+            "name": "Joey Doey"
+        },
+        {
+            "review": "Hi this is Tarik and I am unable to answer the phone right now",
+            "name": "A Lightskin"
+        }
     ]
 }

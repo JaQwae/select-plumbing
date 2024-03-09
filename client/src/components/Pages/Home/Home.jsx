@@ -29,32 +29,13 @@ const Home = () => {
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <div className='review-header'>
-                <img
-                  className='google-logo'
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbapxZNav2xEYhmSHJrJFBqxCPtTMWYh-Y5g&usqp=CAU"
-                  alt="google logo"
-                />
-                <img
-                  className='google-stars'
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRuMFuulTpStB_nkExzl3lDrghpyaSc8zirA&usqp=CAU"
-                  alt="five star"
-                />
-              </div>
-              <div className='review-body'>
-                <p
-                  className='customer-review'
-                >
-                  gljkdljg dlg dfgldkgj addj djg;dljgadkj gdj gdafklgdfjadfgjdfa lgj dfjgdfj gdfjkgdf jgldfgj dflk
-                </p>
-                <p className='customer-name'>-Joey Doey</p>
-              </div>
+              <Review index={0}/>
             </div>
             <div className="carousel-item">
-              <h2>Hello</h2>
+              <Review index={1}/>
             </div>
             <div className="carousel-item">
-              <Review />
+              <Review index={2}/>
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

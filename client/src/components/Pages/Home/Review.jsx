@@ -1,6 +1,13 @@
 import React from 'react'
+import { PropTypes } from "prop-types";
+import homeData from './homeData.json'
 
-const Review = () => {
+const Review = (props) => {
+    // console.log(homeData.customerReviews[2].review)
+    const reviewData = homeData.customerReviews[props.index]
+    console.log(reviewData)
+    // console.log(props.index)
+
     return (
         <>
             <div className='review-header'>
@@ -19,12 +26,18 @@ const Review = () => {
                 <p
                     className='customer-review'
                 >
-                    gljkdljg fdasf sdaf asdf asdf sd fsd fsd fds f sdfsdgdgfdgdfzg gdfgadfgdf dlg dfgldkgj addj djg;dljgadkj gdj gdafklgdfjadfgjdfa lgj dfjgdfj gdfjkgdf jgldfgj dflk
+                    {reviewData.review}
                 </p>
-                <p className='customer-name'>-Joey Doey</p>
+                <p className='customer-name'>
+                    {reviewData.name}
+                </p>
             </div>
         </>
     )
+}
+
+Review.propTypes = {
+    index: PropTypes.number.isRequired
 }
 
 export default Review
