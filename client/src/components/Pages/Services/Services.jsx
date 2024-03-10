@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import ServicesContainer from './ServicesContainer';
+import "../Home/Home.css"
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <div id="service-page">
+      <h1>Services</h1>
+      <section id="service-btn-container">
+        
+      </section>
+      <ServicesContainer />
+    </div>
   )
 }
 
