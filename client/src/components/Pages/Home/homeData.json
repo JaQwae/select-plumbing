@@ -1,0 +1,55 @@
+{
+    "serviceOverview": [
+        {
+            "id": 1,
+            "icon": "https://banner2.cleanpng.com/20180403/stw/kisspng-drop-water-royalty-free-clip-art-water-drops-5ac35e36c17c62.3352338515227530787925.jpg",
+            "alt": "This is alt text 1",
+            "title": "Title One",
+            "serviceOne": "This is service 1",
+            "serviceTwo": "This is service 2",
+            "serviceThree": "This is service 3"
+        },
+        {
+            "id": 2,
+            "icon": "https://banner2.cleanpng.com/20180403/stw/kisspng-drop-water-royalty-free-clip-art-water-drops-5ac35e36c17c62.3352338515227530787925.jpg",
+            "alt": "This is alt text 2",
+            "title": "Title Two",
+            "serviceOne": "This is service 4",
+            "serviceTwo": "This is service 5",
+            "serviceThree": "This is service 6"
+        },
+        {
+            "id": 3,
+            "icon": "https://banner2.cleanpng.com/20180403/stw/kisspng-drop-water-royalty-free-clip-art-water-drops-5ac35e36c17c62.3352338515227530787925.jpg",
+            "alt": "This is alt text 3",
+            "title": "Title Three",
+            "serviceOne": "This is service 7",
+            "serviceTwo": "This is service 8",
+            "serviceThree": "This is service 9"
+        },
+        {
+            "id": 4,
+            "icon": "https://banner2.cleanpng.com/20180403/stw/kisspng-drop-water-royalty-free-clip-art-water-drops-5ac35e36c17c62.3352338515227530787925.jpg",
+            "alt": "This is alt text 4",
+            "title": "Title Three",
+            "serviceOne": "This is service 10",
+            "serviceTwo": "This is service 11",
+            "serviceThree": "This is service 12"
+        }
+    ],
+    
+    "customerReviews": [
+        {
+            "review": "fdafdaf fsdaf sadf sda fs adfsa df sdf fsd f sdafd sff",
+            "name": "Betty Smith"
+        },
+        {
+            "review": "gljkdljg fdasf sdaf asdf asdf sd fsd fsd fds f sdfsdgdgfdgdfzg gdfgadfgdf dlg dfgldkgj addj djg;dljgadkj gdj gdafklgdfjadfgjdfa lgj dfjgdfj gdfjkgdf jgldfgj dflk",
+            "name": "Joey Doey"
+        },
+        {
+            "review": "Hi this is Tarik and I am unable to answer the phone right now",
+            "name": "A Lightskin"
+        }
+    ]
+}

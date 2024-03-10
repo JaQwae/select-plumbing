@@ -1,0 +1,147 @@
+.homepage-containers{
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-----Hero Section-----*/
+#hero-container{
+    background-image: url("https://images.pexels.com/photos/1089077/pexels-photo-1089077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    color:var(--secondary-color);
+    position: relative;
+}
+
+#slogan-container{
+    font-weight: 700;
+    font-size: 2rem;
+    position: absolute;
+    top:60%;
+    left:10%;
+    text-shadow: 2px 2px var(--primary-color);
+}
+
+#slogan-container p {
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    transform: scale(1.3, 1);
+}
+
+#hero-btn {
+    position: absolute;
+    top:80%;
+    left:75%;
+    height: 3rem;
+    width: 13rem;
+    font-size: 1.5rem;
+}
+
+/*-----Service Section----- */
+#services-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-preview{
+    display: flex;
+}
+
+.single-home-service-container {
+    background-color: var(--primary-color);
+    width: 15rem;
+    height: 25rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+.home-service-image{
+    height: 10rem;
+    width: 8rem;
+}
+
+.single-home-service-container hr {
+    border: 4px solid var(--accent-color);
+    width: 6rem;
+}
+
+#home-request-service{
+    height: 3rem;
+    width: 13rem;
+    font-size: 1.5rem;
+}
+
+/*-----Review Section-----*/
+#review-container {
+    background-image: url("https://www.hinsdaledental.com/wp-content/uploads/2020/12/teen-brushing-teeth.jpg");
+    display: flex;
+    justify-content: end;
+}
+
+.carousel{
+    background-color: #173168aa;
+    color: var(--secondary-color);
+    height: 100%;
+    width: 50%;
+}
+
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    position: relative;
+}
+
+.carousel-item.active {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    padding: 2rem;
+    transition: ease-in-out 0.3s;
+}
+
+.carousel-item{
+    display:none;
+    transition: ease-in-out 0.3s;
+}
+
+.review-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 33.33%;
+}
+
+.google-logo{
+    width:20rem;
+    padding-bottom: 2rem;
+}
+.google-stars{
+    height:2rem;
+    width: 10rem;
+}
+
+.review-body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.customer-review{
+    display: flex;
+    width:50%;
+}

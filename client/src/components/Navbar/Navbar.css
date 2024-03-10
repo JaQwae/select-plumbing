@@ -1,6 +1,9 @@
 .navbar {
     background-color: var(--primary-color);
     padding: 1rem;
+    position:sticky;
+    top: 0;
+    z-index: 99;
 }
 
 .nav{
@@ -28,7 +31,7 @@
 }
 .nav-elements{
     color:var(--secondary-color);
-    /* margin: 0.5rem; */
+    margin-right: 1rem;
 }
 
 .dropdown-menu{

@@ -20,9 +20,9 @@ const Navbar = () => {
               <li className="nav-elements">Services</li>
             </Link>
             <li className=" dropdown nav-links nav-elements">
-              <li className="dropdown-toggle nav-elements" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="dropdown-toggle nav-elements" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Resources
-              </li>
+              </a>
               <ul className="dropdown-menu">
                 <Link to="/blog" className="nav-links ">
                   <li className="nav-elements dropdown-item">Blog</li>
@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
           <div id="nav-contact-section" className='navbar-content-section'>
             <li className='nav-elements'>(555)-555-5555</li>
-            <button id="nav-request-service-btn" className='nav-elements'>Request Service</button>
+            <button id="nav-request-service-btn" className='btn nav-elements'>Request Service</button>
           </div>
         </div>
       </ul>
