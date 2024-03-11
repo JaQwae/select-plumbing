@@ -3,7 +3,7 @@ import serviceData from './serviceData.json'
 
 const ServicesContainer = () => {
     return (
-        <>
+        <div id="services-container">
         {serviceData.services.map((item) => (
             <section key={item.id} className='single-home-service-container'>
                 <img className='home-service-image' src={item.icon} alt={item.alt} />
@@ -14,7 +14,7 @@ const ServicesContainer = () => {
                 </div>
             </section>
         ))}
-        </>
+        </div>
     )
 }
 
