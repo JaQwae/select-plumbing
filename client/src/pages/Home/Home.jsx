@@ -1,6 +1,7 @@
 import React from 'react';
-import HomeServiceContainer from './HomeServiceContainer';
-import Review from './Review';
+import ServicesContainer from '../../components/ServiceContainer/ServiceContainer';
+import Review from '../../components/review/Review';
+import homeData from '../../data/homeData.json'
 import "./Home.css";
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
       </section>
       <section id='services-container'className='homepage-containers'>
         <div id='service-preview'>
-          <HomeServiceContainer/>
+          <ServicesContainer data={homeData.serviceOverview} page="home"/>
         </div>
         <button id="home-request-service" className='btn'>View All Services</button>
       </section>
@@ -29,13 +30,13 @@ const Home = () => {
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <Review index={0}/>
+              <Review data={homeData.customerReviews} index={0}/>
             </div>
             <div className="carousel-item">
-              <Review index={1}/>
+              <Review data={homeData.customerReviews} index={1}/>
             </div>
             <div className="carousel-item">
-              <Review index={2}/>
+              <Review data={homeData.customerReviews} index={2}/>
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

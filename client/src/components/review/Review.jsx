@@ -1,13 +1,10 @@
 import React from 'react'
 import { PropTypes } from "prop-types";
-import homeData from './homeData.json'
 
 const Review = (props) => {
-    // console.log(homeData.customerReviews[2].review)
-    const reviewData = homeData.customerReviews[props.index]
-    console.log(reviewData)
-    // console.log(props.index)
 
+    const reviewData = props.data[props.index]
+    
     return (
         <>
             <div className='review-header'>
@@ -37,6 +34,7 @@ const Review = (props) => {
 }
 
 Review.propTypes = {
+    data: PropTypes.array.isRequired,
     index: PropTypes.number.isRequired
 }
 

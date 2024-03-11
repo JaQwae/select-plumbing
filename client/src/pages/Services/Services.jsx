@@ -1,5 +1,6 @@
 import React from 'react';
-import ServicesContainer from './ServicesContainer';
+import ServicesContainer from '../../components/ServiceContainer/ServiceContainer';
+import serviceData from "../../data/serviceData.json"
 import "../Home/Home.css"
 import "./Services.css"
 
@@ -13,7 +14,9 @@ const Services = () => {
       <section id="service-btn-container">
         <button>All</button>
       </section>
-      <ServicesContainer />
+      <section id="services-container">
+        <ServicesContainer data={serviceData.services} page="service"/>
+      </section>
     </div>
   )
 }

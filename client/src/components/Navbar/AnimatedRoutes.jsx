@@ -1,12 +1,12 @@
 import React, { Suspense, lazy } from "react"
 import { Routes, Route } from "react-router-dom"
-const Home = lazy(() => import('../Pages/Home/Home'));
-const About = lazy(() => import('../Pages/About/About'));
-const Services = lazy(() => import('../Pages/Services/Services'));
-const Gallery = lazy(() => import('../Pages/Gallery/Gallery'));
-const Blog = lazy(() => import('../Pages/Blog/Blog'));
-const News = lazy(() => import('../Pages/News/News'));
-const Promotions = lazy(() => import('../Pages/Promotions/Promotions'));
+const Home = lazy(() => import('../../pages/Home/Home'));
+const About = lazy(() => import('../../pages/About/About'));
+const Services = lazy(() => import('../../pages/Services/Services'));
+const Gallery = lazy(() => import('../../pages/Gallery/Gallery'));
+const Blog = lazy(() => import('../../pages/Blog/Blog'));
+const News = lazy(() => import('../../pages/News/News'));
+const Promotions = lazy(() => import('../../pages/Promotions/Promotions'));
 // import { AnimatePresence } from "framer-motion";
 
 export function AnimatedRoutes() {
