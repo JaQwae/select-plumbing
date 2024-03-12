@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from "react"
 import { Routes, Route } from "react-router-dom"
+import LoadingScreen from "../loading-screen/LoadingScreen";
 const Home = lazy(() => import('../../pages/Home/Home'));
 const About = lazy(() => import('../../pages/About/About'));
 const Services = lazy(() => import('../../pages/Services/Services'));
@@ -12,7 +13,7 @@ const Promotions = lazy(() => import('../../pages/Promotions/Promotions'));
 export function AnimatedRoutes() {
 
     return (
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<LoadingScreen/>}>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
