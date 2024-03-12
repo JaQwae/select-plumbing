@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-// import ServiceSortBtn from '../../components/service-sort-btn/ServiceSortBtn';
 import ServicesContainer from '../../components/service-container/ServiceContainer';
 import serviceData from "../../data/serviceData.json"
 import "../Home/Home.css"
@@ -10,7 +9,6 @@ const Services = () => {
 
   const handleClick = (cat) => {
     setCategory(cat)
-    // console.log(category);
   }
 
   return (
