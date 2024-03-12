@@ -1,0 +1,37 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "icon": "https://banner2.cleanpng.com/20180403/stw/kisspng-drop-water-royalty-free-clip-art-water-drops-5ac35e36c17c62.3352338515227530787925.jpg",
+            "alt": "This is alt text 1",
+            "category": "Sewage",
+            "title": "Title One",
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text"
+        },
+        {
+            "id": 2,
+            "icon": "https://banner2.cleanpng.com/20180403/stw/kisspng-drop-water-royalty-free-clip-art-water-drops-5ac35e36c17c62.3352338515227530787925.jpg",
+            "alt": "This is alt text 2",
+            "category": "Plumbing",
+            "title": "Title Two",
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text"
+        },
+        
+        {
+            "id": 3,
+            "icon": "https://banner2.cleanpng.com/20180403/stw/kisspng-drop-water-royalty-free-clip-art-water-drops-5ac35e36c17c62.3352338515227530787925.jpg",
+            "alt": "This is alt text 3",
+            "category": "Inspection",
+            "title": "Title Three",
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text"
+        },
+        {
+            "id": 4,
+            "icon": "https://banner2.cleanpng.com/20180403/stw/kisspng-drop-water-royalty-free-clip-art-water-drops-5ac35e36c17c62.3352338515227530787925.jpg",
+            "alt": "This is alt text 3",
+            "category": "Realtor",
+            "title": "Title Four",
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text"
+        }
+    ]
+}

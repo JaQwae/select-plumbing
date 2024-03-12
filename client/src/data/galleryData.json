@@ -1,0 +1,9 @@
+{
+    "galleryPhotos":[
+        {
+            "id": 1,
+            "img": "photoPath",
+            "alt": "this is some alt text"
+        }
+    ]
+}
