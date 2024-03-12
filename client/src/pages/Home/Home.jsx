@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import ServicesContainer from '../../components/service-container/ServiceContainer';
 import Review from '../../components/review/Review';
 import homeData from '../../data/homeData.json';
@@ -25,7 +26,9 @@ const Home = () => {
         <div id='service-preview'>
           <ServicesContainer data={homeData.serviceOverview} page="home"/>
         </div>
-        <button id="home-request-service" className='btn'>View All Services</button>
+        <Link to="/services" className="nav-links">
+          <button id="home-request-service" className='btn'>View All Services</button>
+        </Link>
       </section>
       <section id="review-container" className='homepage-containers'>
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
