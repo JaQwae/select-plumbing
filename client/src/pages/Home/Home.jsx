@@ -1,5 +1,5 @@
 import React from 'react';
-import ServicesContainer from '../../components/ServiceContainer/ServiceContainer';
+import ServicesContainer from '../../components/service-container/ServiceContainer';
 import Review from '../../components/review/Review';
 import homeData from '../../data/homeData.json'
 import "./Home.css";
