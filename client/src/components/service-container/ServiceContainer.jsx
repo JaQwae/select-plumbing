@@ -4,10 +4,17 @@ import { PropTypes } from "prop-types";
 const ServicesContainer = (props) => {
 
     const page = props.page;
+    let filteredData = props
+    
+    if (props.category === "All") {
+        filteredData = props.data
+    } else {
+        filteredData = props.data.filter(item => item.category === props.category);
+    }
 
     return (
         <>
-        {props.data.map((item) => (
+        {filteredData.map((item) => (
             <section key={item.id} className='single-home-service-container'>
                 <img className='home-service-image' src={item.icon} alt={item.alt} />
                 <hr className='home-service-break'/>
@@ -32,7 +39,8 @@ const ServicesContainer = (props) => {
 
 ServicesContainer.propTypes = {
     data: PropTypes.array.isRequired,
-    page: PropTypes.string.isRequired
+    page: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired
 }
 
 export default ServicesContainer;
