@@ -1,5 +1,5 @@
 import React from 'react';
-import ServicesContainer from '../../components/ServiceContainer/ServiceContainer';
+import ServicesContainer from '../../components/service-container/ServiceContainer';
 import serviceData from "../../data/serviceData.json"
 import "../Home/Home.css"
 import "./Services.css"
