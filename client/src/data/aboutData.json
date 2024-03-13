@@ -1,0 +1,40 @@
+{
+    "values": [
+        {
+            "id": 1,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozgyQr5p5qy-cLqfz23oV_g0FAlN-XQKDaw&usqp=CAU",
+            "alt": "text 1",
+            "value": "Courtesy"
+        },
+        {
+            "id": 2,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozgyQr5p5qy-cLqfz23oV_g0FAlN-XQKDaw&usqp=CAU",
+            "alt": "text 2",
+            "value": "Punctuality"
+        },
+        {
+            "id": 3,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozgyQr5p5qy-cLqfz23oV_g0FAlN-XQKDaw&usqp=CAU",
+            "alt": "text 3",
+            "value": "Honesty"
+        },
+        {
+            "id": 4,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozgyQr5p5qy-cLqfz23oV_g0FAlN-XQKDaw&usqp=CAU",
+            "alt": "text 4",
+            "value": "Integrity"
+        },
+        {
+            "id": 5,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozgyQr5p5qy-cLqfz23oV_g0FAlN-XQKDaw&usqp=CAU",
+            "alt": "text 5",
+            "value": "Responsibility"
+        },
+        {
+            "id": 6,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTozgyQr5p5qy-cLqfz23oV_g0FAlN-XQKDaw&usqp=CAU",
+            "alt": "text 6",
+            "value": "Respect"
+        }
+    ]
+}

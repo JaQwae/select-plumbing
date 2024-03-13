@@ -40,7 +40,7 @@ const ServicesContainer = (props) => {
 ServicesContainer.propTypes = {
     data: PropTypes.array.isRequired,
     page: PropTypes.string.isRequired,
-    category: PropTypes.string.isRequired
+    category: PropTypes.string
 }
 
 export default ServicesContainer;

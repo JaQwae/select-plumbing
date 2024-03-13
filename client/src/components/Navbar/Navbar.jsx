@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
           <div id="nav-contact-section" className='navbar-content-section'>
             <li className='nav-elements'>(555)-555-5555</li>
-            <button id="nav-request-service-btn" className='btn nav-elements'>Request Service</button>
+            <button id="nav-request-service-btn" className='btn secondary-btn nav-elements'>Request Service</button>
           </div>
         </div>
       </ul>
