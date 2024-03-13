@@ -1,0 +1,25 @@
+:root {
+    --info-spacing: 0.5rem;
+}
+.card {
+    width: 25rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.blog-info-header{
+    display: flex;
+}
+
+.blog-author{
+    margin-right: var(--info-spacing);
+}
+
+.blog-date {
+    margin-left: var(--info-spacing);
+}
+
+.blog-link{
+    text-decoration: none;
+    color: var(--accent-color)
+}
