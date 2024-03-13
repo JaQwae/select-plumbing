@@ -32,6 +32,32 @@
         }
     ],
     "news": [
-        
+        {
+            "id": 1,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs60KXCohz-EJRTchdJEfaqJcClcve3T8Q8g__pjKWsO4FfTuUz6-ztJFfr2PzeMuHNqo&usqp=CAU",
+            "alt": "text 1",
+            "title": "Title 1",
+            "date": "Dec 14th, 2024",
+            "summary": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+            "link": "https://www.google.com/search?q=contractors+working&tbm=isch&ved=2ahUKEwjD6PCdjPKEAxV3ie4BHUezA1sQ2-cCegQIABAA&oq=contractors+working&gs_lp=EgNpbWciE2NvbnRyYWN0b3JzIHdvcmtpbmcyBRAAGIAEMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYSPkgULkIWPgfcAB4AJABAJgBZKABkgaqAQQxMi4xuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAgoQABiABBiKBRhDwgIGEAAYBxgewgIGEAAYCBgewgIGEAAYBRgeiAYB&sclient=img&ei=5A7yZcPmFveSur8Px-aO2AU&bih=730&biw=1536&rlz=1C1VDKB_enUS1006US1006"
+        },
+        {
+            "id": 2,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs60KXCohz-EJRTchdJEfaqJcClcve3T8Q8g__pjKWsO4FfTuUz6-ztJFfr2PzeMuHNqo&usqp=CAU",
+            "alt": "text 2",
+            "title": "Title 2",
+            "date": "Dec 14th, 2024",
+            "summary": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+            "link": "https://www.google.com/search?q=contractors+working&tbm=isch&ved=2ahUKEwjD6PCdjPKEAxV3ie4BHUezA1sQ2-cCegQIABAA&oq=contractors+working&gs_lp=EgNpbWciE2NvbnRyYWN0b3JzIHdvcmtpbmcyBRAAGIAEMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYSPkgULkIWPgfcAB4AJABAJgBZKABkgaqAQQxMi4xuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAgoQABiABBiKBRhDwgIGEAAYBxgewgIGEAAYCBgewgIGEAAYBRgeiAYB&sclient=img&ei=5A7yZcPmFveSur8Px-aO2AU&bih=730&biw=1536&rlz=1C1VDKB_enUS1006US1006"
+        },
+        {
+            "id": 3,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs60KXCohz-EJRTchdJEfaqJcClcve3T8Q8g__pjKWsO4FfTuUz6-ztJFfr2PzeMuHNqo&usqp=CAU",
+            "alt": "text 3",
+            "title": "Title 3",
+            "date": "Dec 14th, 2024",
+            "summary": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+            "link": "https://www.google.com/search?q=contractors+working&tbm=isch&ved=2ahUKEwjD6PCdjPKEAxV3ie4BHUezA1sQ2-cCegQIABAA&oq=contractors+working&gs_lp=EgNpbWciE2NvbnRyYWN0b3JzIHdvcmtpbmcyBRAAGIAEMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYMgcQABiABBgYSPkgULkIWPgfcAB4AJABAJgBZKABkgaqAQQxMi4xuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAgoQABiABBiKBRhDwgIGEAAYBxgewgIGEAAYCBgewgIGEAAYBRgeiAYB&sclient=img&ei=5A7yZcPmFveSur8Px-aO2AU&bih=730&biw=1536&rlz=1C1VDKB_enUS1006US1006"
+        }
     ]
 }

@@ -19,7 +19,3 @@
     margin-left: var(--info-spacing);
 }
 
-.blog-link{
-    text-decoration: none;
-    color: var(--accent-color)
-}

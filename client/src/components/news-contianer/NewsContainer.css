@@ -1,0 +1,20 @@
+.single-news-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    border-bottom: var(--primary-color) solid 3px;
+    padding: 1rem 0rem;
+}
+
+.news-image{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.new-info-container{
+    padding: 0rem 2rem;
+}
+
+.news-link{
+    color: var(--primary-color);
+}

@@ -3,8 +3,6 @@ import externalData from '../../data/externalData.json'
 import './BlogContainer.css'
 
 const BlogContainer = () => {
-    console.log(externalData.blog)
-
     return (
         <>
             {externalData.blog.map((item) => (
@@ -22,9 +20,9 @@ const BlogContainer = () => {
                             href={item.link}
                             target= '_blank'
                             rel= 'noopener noreferrer'
-                            className="blog-link"
+                            className="blog-link read-more-links"
                         >
-                            Read More <i class="fa-solid fa-arrow-right"></i>
+                            Read More <i className="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
