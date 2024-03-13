@@ -8,6 +8,13 @@
     cursor: pointer;
 }
 
+.secondary-btn {
+    all: unset;
+    background-color: var(--primary-color);
+    border: 2px solid var(--tertiary-color);
+    color: var(--tertiary-color);
+}
+
 .btn:hover {
     background-color: var(--tertiary-color);
     color: var(--secondary-color);

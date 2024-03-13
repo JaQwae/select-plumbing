@@ -41,9 +41,9 @@
     color: var(--accent-color);
 }
 
-#nav-request-service-btn{
+/* #nav-request-service-btn{
     all: unset;
     background-color: var(--primary-color);
     border: 2px solid var(--tertiary-color);
     color: var(--tertiary-color);
-}
+} */
