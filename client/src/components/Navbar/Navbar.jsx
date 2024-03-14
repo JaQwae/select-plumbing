@@ -9,8 +9,8 @@ const Navbar = () => {
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
-    // console.log(hamburgerOpen)
   }
+
   return (
     <nav className="navbar">
       <ul className='nav'>

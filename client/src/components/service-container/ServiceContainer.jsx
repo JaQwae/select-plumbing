@@ -1,6 +1,6 @@
 import React from 'react'
 import { PropTypes } from "prop-types";
-import './Service Container.css'
+import './ServiceContainer.css'
 
 const ServicesContainer = (props) => {
 
@@ -16,11 +16,11 @@ const ServicesContainer = (props) => {
     return (
         <>
         {filteredData.map((item) => (
-            <section key={item.id} className='single-home-service-container service-container'>
-                <img className='home-service-image' src={item.icon} alt={item.alt} />
-                <hr className='home-service-break'/>
-                <h2 className="home-service-title">{item.title}</h2>
-                <div className='home-services-preview'>
+            <section key={item.id} className='service-container'>
+                <img className='service-image' src={item.icon} alt={item.alt} />
+                <hr className='service-break'/>
+                <h2 className="service-title">{item.title}</h2>
+                <div className='services-preview'>
                     {page === "home" &&
                         <>
                             <p>{item.serviceOne}</p>

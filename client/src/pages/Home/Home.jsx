@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import ServicesContainer from '../../components/service-container/ServiceContainer';
 import Review from '../../components/review/Review';
 import homeData from '../../data/homeData.json';
-import Footer from '../../components/footer/Footer'
+// import Footer from '../../components/footer/Footer';
 import "./Home.css";
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
           Request Service
         </button>
       </section>
-      <section id='services-container'className='homepage-containers'>
+      <section id='home-services-container'className='homepage-containers'>
         <div id='service-preview'>
           <ServicesContainer data={homeData.serviceOverview} page="home"/>
         </div>
@@ -53,7 +53,7 @@ const Home = () => {
           </button>
         </div>
       </section>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

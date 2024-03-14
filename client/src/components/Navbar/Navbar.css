@@ -63,7 +63,7 @@
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .hamburger-menu{
         display: flex;
         padding-top: 10px;
@@ -96,7 +96,7 @@
     }
 
     .nav-elements{
-        color: red;
+        /* color: red; */
         padding-bottom: 1rem;
         text-align: center;
     }
