@@ -14,7 +14,7 @@ const Navbar = () => {
             id="company-logo"
           />
         </Link>
-        <div id='navbar-content'>
+        <div className='navbar-content'>
           <div id="nav-links-section" className='navbar-content-section'>
             <Link to="/services" className="nav-links">
               <li className="nav-elements">Services</li>
