@@ -1,5 +1,6 @@
 .single-photo-container{
     overflow:hidden;
+    box-shadow: var(--container-shadow);
 }
 
 .photo {

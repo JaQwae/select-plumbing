@@ -1,12 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom'
 import "./Navbar.css";
+import Hamburger from './Hamburger';
 
 
 const Navbar = () => {
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+  const toggleHamburger = () => {
+    setHamburgerOpen(!hamburgerOpen);
+  }
+
   return (
     <nav className="navbar">
       <ul className='nav'>
+      <div id="mobile-nav">
         <Link to="/">
           <img
             src="https://www.accentonprint.com/news/wp-content/uploads/2017/01/nike-logo-copy.jpg"
@@ -14,13 +22,20 @@ const Navbar = () => {
             id="company-logo"
           />
         </Link>
-        <div id='navbar-content'>
-          <div id="nav-links-section" className='navbar-content-section'>
+        <div className={`hamburger-menu open-${hamburgerOpen}`} onClick={toggleHamburger}>
+          <Hamburger/>
+        </div>
+        </div>
+        <div className={`navbar-content open-${hamburgerOpen}`}>
+          <div id="nav-links-section" className={`navbar-content-section`}>
+            <Link to="/" className="nav-links">
+              <li className="nav-elements">Home</li>
+            </Link>
             <Link to="/services" className="nav-links">
               <li className="nav-elements">Services</li>
             </Link>
             <li className=" dropdown nav-links nav-elements">
-              <a className="dropdown-toggle nav-elements" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="dropdown-toggle nav-elements nav-links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Resources
               </a>
               <ul className="dropdown-menu">
