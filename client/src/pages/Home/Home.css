@@ -7,7 +7,7 @@
 
 /*-----Hero Section-----*/
 #hero-container{
-    background-image: url("https://images.pexels.com/photos/1089077/pexels-photo-1089077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("../../assets/images/home-images/selectPlumbingHeroImage.png");
     background-position: center;
     color:var(--secondary-color);
     position: relative;
@@ -54,7 +54,7 @@
 
 /*-----Review Section-----*/
 #review-container {
-    background-image: url("https://www.hinsdaledental.com/wp-content/uploads/2020/12/teen-brushing-teeth.jpg");
+    background-image: url("../../assets/images/home-images/kidsBrushingTeeth.png");
     display: flex;
     justify-content: end;
 }

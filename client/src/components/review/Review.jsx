@@ -1,5 +1,7 @@
 import React from 'react'
 import { PropTypes } from "prop-types";
+import googleReviewLogo from "../../assets/images/home-images/googleReviewLogo.png"
+import googleStars from "../../assets/images/home-images/googleStars.png"
 
 const Review = (props) => {
 
@@ -10,12 +12,12 @@ const Review = (props) => {
             <div className='review-header'>
                 <img
                     className='google-logo'
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbapxZNav2xEYhmSHJrJFBqxCPtTMWYh-Y5g&usqp=CAU"
+                    src={googleReviewLogo}
                     alt="google logo"
                 />
                 <img
                     className='google-stars'
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRuMFuulTpStB_nkExzl3lDrghpyaSc8zirA&usqp=CAU"
+                    src={googleStars}
                     alt="five star"
                 />
             </div>

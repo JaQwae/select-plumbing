@@ -10,11 +10,11 @@ const Home = () => {
   return (
     <>
       <section id='hero-container' className='homepage-containers'>
-        <article id="slogan-container">
+        {/* <article id="slogan-container">
           <p>Trusted By Houston</p>
           <p>Families For Over</p>
           <p>40 Years</p>
-        </article>
+        </article> */}
         <button
           id="hero-btn"
           className='btn request-service-btn'
