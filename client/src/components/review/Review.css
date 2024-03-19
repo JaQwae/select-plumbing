@@ -1,0 +1,55 @@
+.review-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 33.33%;
+}
+
+.google-logo{
+    width:20rem;
+    /* padding-bottom: 2rem; */
+}
+.google-stars{
+    /* height:2rem; */
+    width: 10rem;
+}
+
+.review-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    height: 66.66%;
+    font-size: 1.5rem;
+}
+
+.customer-review{
+    /* display: flex; */
+    text-align: center;
+    width:80%;
+    margin-bottom: 2rem;
+}
+
+.customer-name{
+    color: var(--accent-color)
+}
+
+/* Tablet Sizing */
+@media screen and (max-width: 1024px) {
+    .google-logo{
+        width:30rem;
+    }    
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+    .google-logo{
+        width:20rem;
+    }
+
+    .customer-review{
+        width:95%;
+    }
+}
