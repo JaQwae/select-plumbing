@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom'
-import "./Navbar.css";
+import { Link } from 'react-router-dom';
 import Hamburger from './Hamburger';
+import logo from "../../assets/images/logo.png";
+import "./Navbar.css";
 
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
       <div id="mobile-nav">
         <Link to="/">
           <img
-            src="https://www.accentonprint.com/news/wp-content/uploads/2017/01/nike-logo-copy.jpg"
+            src={logo}
             alt="Company-Logo"
             id="company-logo"
           />
@@ -60,7 +61,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div id="nav-contact-section" className='navbar-content-section'>
-            <li className='nav-elements'>(555)-555-5555</li>
+            <li className='nav-elements'><i className="fa-solid fa-phone"></i> (555)-555-5555</li>
             <button id="nav-request-service-btn" className='btn secondary-btn nav-elements'>Request Service</button>
           </div>
         </div>

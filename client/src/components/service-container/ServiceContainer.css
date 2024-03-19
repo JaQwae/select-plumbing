@@ -32,3 +32,12 @@
     border: 4px solid var(--accent-color);
     width: 6rem;
 }
+
+/* Tablet Sizing */
+@media screen and (max-width: 1024px) {
+    .service-container {
+        width: 20rem;
+        /* height: 25rem; */
+        /* margin: 2rem; */
+    }  
+}

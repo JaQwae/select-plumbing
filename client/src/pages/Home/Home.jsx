@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom'
 import ServicesContainer from '../../components/service-container/ServiceContainer';
 import Review from '../../components/review/Review';
 import homeData from '../../data/homeData.json';
-// import Footer from '../../components/footer/Footer';
+import Footer from '../../components/footer/Footer';
 import "./Home.css";
 
 const Home = () => {
   return (
     <>
       <section id='hero-container' className='homepage-containers'>
-        <article id="slogan-container">
+        {/* <article id="slogan-container">
           <p>Trusted By Houston</p>
           <p>Families For Over</p>
           <p>40 Years</p>
-        </article>
+        </article> */}
         <button
           id="hero-btn"
           className='btn request-service-btn'
@@ -53,7 +53,7 @@ const Home = () => {
           </button>
         </div>
       </section>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }

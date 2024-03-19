@@ -7,7 +7,7 @@
 
 /*-----Hero Section-----*/
 #hero-container{
-    background-image: url("https://images.pexels.com/photos/1089077/pexels-photo-1089077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("../../assets/images/home-images/selectPlumbingHeroImage.png");
     background-position: center;
     color:var(--secondary-color);
     position: relative;
@@ -50,11 +50,12 @@
     height: 3rem;
     width: 13rem;
     font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 /*-----Review Section-----*/
 #review-container {
-    background-image: url("https://www.hinsdaledental.com/wp-content/uploads/2020/12/teen-brushing-teeth.jpg");
+    background-image: url("../../assets/images/home-images/kidsBrushingTeeth.png");
     display: flex;
     justify-content: end;
 }
@@ -92,30 +93,41 @@
     transition: ease-in-out 0.3s;
 }
 
-.review-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 33.33%;
+/* Tablet Sizing */
+@media screen and (max-width: 1024px) {
+    #hero-btn {
+        left:65%;
+        height: 4rem;
+    }
+
+    .carousel{
+        width: 100%;
+    }
 }
 
-.google-logo{
-    width:20rem;
-    padding-bottom: 2rem;
-}
-.google-stars{
-    height:2rem;
-    width: 10rem;
-}
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+    .homepage-containers{
+        height: 120vh;
+    }
 
-.review-body{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-}
+    #hero-container{
+        /* background-image: url("../../assets/images/home-images/selectPlumbingHeroImage.png"); */
+        /* background-position: center; */
+        display: flex;
+    }
 
-.customer-review{
-    display: flex;
-    width:50%;
+    #hero-btn {
+        position: static;
+        align-self: end;
+        width: 100vw;
+        font-size: 1.8rem;
+    }
+
+    #home-request-service{
+        height: 4rem;
+        width: 100vh;
+        font-size: 1.8rem;
+        margin-bottom: 0rem;
+    }
 }
