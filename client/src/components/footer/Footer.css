@@ -2,7 +2,12 @@
     width: 100%;
     display:flex;
     justify-content: space-between;
-    border-top: solid #000 2px;
+    border-top: solid var(--tertiary-color) 5px;
+}
+
+.footer-links:hover {
+    scale: 1.1;
+    color: var(--tertiary-color);
 }
 
 .left-section{
@@ -13,20 +18,27 @@
 }
 
 .footer-logo{
-    height: 15rem;
-    width: 20rem;
+    height: 6rem;
+    width: 13rem;
 }
 
 .social-media-container{
     width: 20rem;
     display: flex;
     justify-content: space-around;
+    color: var(--primary-color);
 }
 
 .social-media-icons{
-    font-size: 2rem;
+    font-size: 1.7rem;
+    margin: 0.5rem;
 }
 
+.left-section p {
+    color:var(--tertiary-color);
+    letter-spacing: 0.4rem;
+    font-weight: 500;
+}
 .middle-section{
     display: flex;
     flex-direction: column;
@@ -34,14 +46,17 @@
 }
 
 .footer-images{
-    height: 8rem;
-    width: 20rem;
+    height: 4rem;
+    width: 8rem;
+    margin: 0.2rem;
 }
 
 .right-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color:var(--primary-color);
+    margin: 0rem 1rem;
 }
 
 .footer-contact-header {
@@ -52,15 +67,27 @@
 .footer-contact-header h3 {
     display: flex;
     align-self: center;
+    margin: 0.5rem 0rem 0rem;
+}
+
+.footer-contact-header hr {
+    margin: 1rem 4rem;
+    border: var(--primary-color) solid 3px;
 }
 
 .footer-icons{
     height: 2rem;
+    margin-right: 0.7rem;
+    scale: 1.5
 }
 
 .address-container{
     display: flex;
     align-items: center;
+}
+
+.address-container p {
+    margin: 0;
 }
 
 .phone-number-container{
