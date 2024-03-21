@@ -112,6 +112,7 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
+        padding-top: 1rem;
     }
 
     .navbar-content-section{
@@ -122,9 +123,41 @@
     }
 
     .nav-elements{
-        /* color: red; */
+        /* background-color: red; */
+        width: 100%;
+        font-size: 2rem;
         padding-bottom: 1rem;
-        text-align: center;
+        /* text-align: center; */
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 0.2rem;
+    }
+
+    .dropdown {
+        padding-bottom: 0rem;
+    }
+
+    .dropdown-menu {
+        width:100%
+    }
+
+    /* #nav-phone-number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    #nav-phone-number .fa-phone {
+        /* display: flex;
+        align-items: center; */
+        scale: 1.5;
+    }
+
+    #nav-request-service-btn{
+        height: 4rem;
+        width: 14rem;
+        font-size: 2rem;
     }
 }
 
