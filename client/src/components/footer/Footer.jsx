@@ -11,9 +11,9 @@ const Footer = () => {
             <section className="left-section">
                 <img className='footer-logo' src={logo} alt="company logo"/>
                 <div className="social-media-container">
-                    <i className="fa-brands fa-facebook-f social-media-icons"></i>
-                    <i className="fa-brands fa-instagram social-media-icons"></i>
-                    <i className="fa-brands fa-x-twitter social-media-icons"></i>
+                    <i className="fa-brands fa-facebook-f social-media-icons footer-links"></i>
+                    <i className="fa-brands fa-instagram social-media-icons footer-links"></i>
+                    <i className="fa-brands fa-x-twitter social-media-icons footer-links"></i>
                 </div>
                 <p>MPL 19051</p>
             </section>
@@ -36,11 +36,11 @@ const Footer = () => {
                 </div>
                 <div className="phone-number-container">
                     <i className="fa-solid fa-phone footer-icons"></i>
-                    <p>(555)555-5555</p>
+                    <p className='footer-links'>(555)555-5555</p>
                 </div>
                 <div className='email-container'>
                     <i className="fa-solid fa-envelope footer-icons"></i>
-                    <p>info@theselectplumbing.com</p>
+                    <p className='footer-links'>info@theselectplumbing.com</p>
                 </div>
             </section>
         </div>

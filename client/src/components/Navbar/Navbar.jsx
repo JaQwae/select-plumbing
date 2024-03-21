@@ -61,7 +61,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div id="nav-contact-section" className='navbar-content-section'>
-            <li className='nav-elements'><i className="fa-solid fa-phone"></i> (555)-555-5555</li>
+            <li id="nav-phone-number" className='nav-elements'><i className="fa-solid fa-phone"></i> (555)-555-5555</li>
             <button id="nav-request-service-btn" className='btn secondary-btn nav-elements'>Request Service</button>
           </div>
         </div>

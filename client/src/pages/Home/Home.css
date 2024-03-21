@@ -124,9 +124,13 @@
         font-size: 1.8rem;
     }
 
+    #home-services-container .nav-links {
+        width: 100%;
+    }
+
     #home-request-service{
         height: 4rem;
-        width: 100vh;
+        width: 100%;
         font-size: 1.8rem;
         margin-bottom: 0rem;
     }
