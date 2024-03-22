@@ -5,11 +5,31 @@
 
 .photo {
     height: 20rem;
-    width: 30rem;
+    width: 25rem;
     object-fit: cover;
 }
 
 .photo:hover {
     scale: 1.2;
     transition: ease-in-out 0.3s;
+}
+
+/* Tablet Sizing */
+@media screen and (max-width: 1024px) {
+    .photo {
+        height: 12rem;
+        width: 15rem;
+    }
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+    .single-photo-container{
+        margin-bottom: 1rem ;
+    }
+
+    .photo {
+        height: 15rem;
+        width: 20rem;
+    }
 }
