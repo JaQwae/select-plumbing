@@ -9,3 +9,15 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.service-btn {
+    background-color: var(--secondary-color);
+	border: var(--primary-color) solid 3px;
+	padding: 0.5rem;
+    margin: 0rem 0.5rem;
+	color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+	cursor: pointer;
+    font-weight: 500;
+}

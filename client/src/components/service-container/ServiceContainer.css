@@ -5,10 +5,11 @@
     align-items: center;
 }
 
-#service-preview{
+.services-preview{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0rem 1rem;
 }
 
 .service-container {
@@ -31,6 +32,15 @@
 .service-container hr {
     border: 4px solid var(--accent-color);
     width: 6rem;
+}
+
+.service-link{
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.service-link:hover{
+    scale:1.2;
 }
 
 /* Tablet Sizing */
