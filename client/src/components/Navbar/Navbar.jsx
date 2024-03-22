@@ -62,7 +62,16 @@ const Navbar = () => {
           </div>
           <div id="nav-contact-section" className='navbar-content-section'>
             <li id="nav-phone-number" className='nav-elements'><i className="fa-solid fa-phone"></i> (555)-555-5555</li>
-            <button id="nav-request-service-btn" className='btn secondary-btn nav-elements'>Request Service</button>
+            <a
+              href="https://form.jotform.com/240635777814162"
+              target= '_blank'
+              rel= 'noopener noreferrer'
+            >
+              <button 
+                id="nav-request-service-btn" 
+                className='btn secondary-btn nav-elements'
+              >Request Service</button>
+            </a>
           </div>
         </div>
       </ul>
