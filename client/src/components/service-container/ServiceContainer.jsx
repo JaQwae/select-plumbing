@@ -5,7 +5,7 @@ import './ServiceContainer.css'
 const ServicesContainer = (props) => {
 
     const page = props.page;
-    let filteredData = props
+    let filteredData = props;
     
     if (props.category === "All") {
         filteredData = props.data
@@ -20,7 +20,7 @@ const ServicesContainer = (props) => {
                 <img className='service-image' src={item.icon} alt={item.alt} />
                 <hr className='service-break'/>
                 <h2 className="service-title">{item.title}</h2>
-                <div className='services-preview'>
+                <div className='services-preview homepage-service-preview'>
                     {page === "home" &&
                         <>
                             <p>{item.serviceOne}</p>
@@ -29,7 +29,19 @@ const ServicesContainer = (props) => {
                         </>
                     }
                     { page === "service" &&
-                        <p>{item.desc}</p>
+                        <>
+                            <p>{item.desc}</p>
+                            {item.link !== "none" &&
+                                <a 
+                                    className='service-link'
+                                    href={item.link}
+                                    target= '_blank'
+                                    rel= 'noopener noreferrer'
+                                >
+                                    Read More
+                                </a>
+                            }
+                        </>
                     }
                 </div>
             </section>

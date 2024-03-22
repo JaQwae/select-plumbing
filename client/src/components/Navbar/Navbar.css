@@ -84,6 +84,10 @@
     padding: 0.3rem 1.5rem;
 }
 
+#nav-contact-section a {
+    text-decoration: none;
+}
+
 .hamburger-menu{
     display: none;
 }

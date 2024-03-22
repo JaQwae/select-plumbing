@@ -33,11 +33,19 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.page-title{
+    margin: 0.5rem 0rem;
+    font-size: 3rem;
+    color: var(--primary-color)
 }
 
 .header-line {
     width: 8rem;
-    border: solid red 3px;
+    border: solid red 4px;
+    margin: 0.5rem 0rem;
 }
 
 .service-container {

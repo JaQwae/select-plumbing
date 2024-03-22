@@ -6,7 +6,8 @@
             "alt": "This is alt text 1",
             "category": "Sewage",
             "title": "Title One",
-            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text"
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "link": "none"
         },
         {
             "id": 2,
@@ -14,7 +15,8 @@
             "alt": "This is alt text 2",
             "category": "Plumbing",
             "title": "Title Two",
-            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text"
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "link": "https://www.google.com/search?q=placeholder+photo&tbm=isch&ved=2ahUKEwjF7-WZvIaFAxW0iO4BHXrNBicQ2-cCegQIABAA&oq=placeholder+photo&gs_lp=EgNpbWciEXBsYWNlaG9sZGVyIHBob3RvMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYBRgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHkjKMlDZBVjtMHAAeACQAQCYAaABoAHYEaoBBDkuMTK4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ6gCAMICDRAAGIAEGIoFGEMYsQPCAggQABiABBixA8ICChAAGIAEGIoFGEPCAgsQABiABBixAxiDAYgGAQ&sclient=img&ei=i738ZYX-HLSRur8P-pqbuAI&bih=724&biw=1178&prmd=ivsnmbtz&rlz=1C1VDKB_enUS1006US1006"
         },
         
         {
@@ -23,7 +25,8 @@
             "alt": "This is alt text 3",
             "category": "Inspection",
             "title": "Title Three",
-            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text"
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "link": "none"
         },
         {
             "id": 4,
@@ -31,7 +34,8 @@
             "alt": "This is alt text 3",
             "category": "Realtor",
             "title": "Title Four",
-            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text"
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "link": "none"
         }
     ]
 }

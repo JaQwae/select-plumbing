@@ -46,6 +46,13 @@
     height: auto;
 }
 
+#home-service-preview{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 #home-request-service{
     height: 3rem;
     width: 13rem;
@@ -117,9 +124,15 @@
         display: flex;
     }
 
-    #hero-btn {
+    #hero-container a {
+        text-decoration: none;
         position: static;
         align-self: end;
+    }
+
+    #hero-btn {
+        position: static;
+        /* align-self: end; */
         width: 100vw;
         font-size: 1.8rem;
     }

@@ -15,15 +15,21 @@ const Home = () => {
           <p>Families For Over</p>
           <p>40 Years</p>
         </article> */}
-        <button
-          id="hero-btn"
-          className='btn request-service-btn'
+        <a
+          href="https://form.jotform.com/240635777814162"
+          target= '_blank'
+          rel= 'noopener noreferrer'
         >
-          Request Service
-        </button>
+          <button
+            id="hero-btn"
+            className='btn request-service-btn'
+          >
+            Request Service
+          </button>
+        </a>
       </section>
       <section id='home-services-container'className='homepage-containers'>
-        <div id='service-preview'>
+        <div id='home-service-preview'>
           <ServicesContainer data={homeData.serviceOverview} page="home"/>
         </div>
         <Link to="/services" className="nav-links">
