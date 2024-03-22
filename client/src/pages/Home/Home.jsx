@@ -23,7 +23,7 @@ const Home = () => {
         </button>
       </section>
       <section id='home-services-container'className='homepage-containers'>
-        <div id='service-preview'>
+        <div id='home-service-preview'>
           <ServicesContainer data={homeData.serviceOverview} page="home"/>
         </div>
         <Link to="/services" className="nav-links">

@@ -46,6 +46,13 @@
     height: auto;
 }
 
+#home-service-preview{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 #home-request-service{
     height: 3rem;
     width: 13rem;
