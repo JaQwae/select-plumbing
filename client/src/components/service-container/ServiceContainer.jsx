@@ -20,7 +20,7 @@ const ServicesContainer = (props) => {
                 <img className='service-image' src={item.icon} alt={item.alt} />
                 <hr className='service-break'/>
                 <h2 className="service-title">{item.title}</h2>
-                <div className='services-preview'>
+                <div className='services-preview homepage-service-preview'>
                     {page === "home" &&
                         <>
                             <p>{item.serviceOne}</p>

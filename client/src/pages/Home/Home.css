@@ -124,9 +124,15 @@
         display: flex;
     }
 
-    #hero-btn {
+    #hero-container a {
+        text-decoration: none;
         position: static;
         align-self: end;
+    }
+
+    #hero-btn {
+        position: static;
+        /* align-self: end; */
         width: 100vw;
         font-size: 1.8rem;
     }

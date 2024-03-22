@@ -12,6 +12,10 @@
     padding: 0rem 1rem;
 }
 
+.homepage-service-preview{
+    flex-direction: column;
+}
+
 .service-container {
     background-color: var(--primary-color);
     width: 15rem;
@@ -50,4 +54,17 @@
         /* height: 25rem; */
         /* margin: 2rem; */
     }  
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+    #services-container {
+        /* width: 100%; */
+        /* background-color: red; */
+    }
+
+    .service-container {
+        /* width: 100%; */
+        /* background-color: red; */
+    }
 }

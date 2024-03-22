@@ -4,6 +4,13 @@
     align-items: center;
 }
 
+#service-btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 #services-container{
     display: flex;
     flex-direction: row;
@@ -20,4 +27,11 @@
     letter-spacing: 0.2rem;
 	cursor: pointer;
     font-weight: 500;
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+    .service-btn{
+        margin: 0.5rem 0.5rem;    
+    }
 }
