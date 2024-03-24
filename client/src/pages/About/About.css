@@ -68,13 +68,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 20%;
+    width: 30%;
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
 #service-area-header h4 {
     text-align: center;
+    font-size: 3rem;
+    padding: 0rem 0.5rem;
 }
 
 #service-area-header hr {
@@ -82,16 +84,15 @@
     border: solid var(--tertiary-color) 3px;
 }
 
-/* #service-area-header{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-} */
-
 #service-areas{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1.5rem;
+}
+
+#service-area-container button {
+    padding: 1rem
 }
 
 #google-map{
