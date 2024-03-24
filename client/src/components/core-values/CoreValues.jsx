@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutData from "../../data/aboutData.json"
+import {aboutData} from "../../data/aboutData"
 import "./CoreValues.css"
 
 const CoreValues = () => {

@@ -30,6 +30,10 @@
     padding-bottom: 1rem;
 }
 
+#intro-content-container a {
+    text-decoration: none;
+}
+
 #intro-content-container button {
     padding: 1rem;
 }
@@ -41,6 +45,11 @@
 
 #core-values-image{
     width: 30%;
+}
+
+#core-values-section{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 #core-values-container{

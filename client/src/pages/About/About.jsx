@@ -1,20 +1,28 @@
 import React from 'react'
 import CoreValues from '../../components/core-values/CoreValues'
+import selectPlumbingGroupPhoto from "../../assets/images/about-images/select-plumbing-group-photo.png"
+import ourCoreValuesBanner from "../../assets/images/about-images/our-core-value-banner.png"
 import "./About.css"
 
 const About = () => {
   return (
     <div id="about-page">
-      <h1 id="about-page-title">Welcome To Select Plumbing Let Us Serve Your Family</h1>
+      <h1 id="about-page-title" className='page-title'>Welcome To Select Plumbing Let Us Serve Your Family</h1>
       <section id="intro-section" className='about-page-sections'>
         <div id="intro-content-container">
           <p>Since 1992, the family Owned and operated team at Select Plumbing has been serving the City of Houston and its surrounding areas with trustworthy & reliable plumbing & leak investigation services. Our mission is to ensure that Texas families & businesses have adequate water, gas & sewage systems for all their needs. We work hard to ensure you are more than just a customer… Join The Select Family and schedule service today.</p>
-          <button className='btn secondary-btn'>Request Service</button>
+          <a
+              href="https://form.jotform.com/240635777814162"
+              target= '_blank'
+              rel= 'noopener noreferrer'
+            >
+            <button className='btn secondary-btn'>Request Service</button>
+          </a>
         </div>
         <img
           id="staff-photo"
           className='about-page-photos'
-          src="https://www.hospitalrecruiting.com/wp/wp-content/uploads/2019/09/Ten-Ways-to-Be-a-Better-Coworker.jpg"
+          src= {selectPlumbingGroupPhoto}
           alt="The full staff of select plumbing"
         />
       </section>
@@ -22,7 +30,7 @@ const About = () => {
         <img
           id='core-values-image'
           className='about-page-photos'
-          src="https://miro.medium.com/v2/resize:fit:1400/1*cTyEndhAzEigGUNw0inG5Q.jpeg"
+          src={ourCoreValuesBanner}
           alt="blocks stack together with the words are core values on them"
         />
         <div id="core-values-container">
