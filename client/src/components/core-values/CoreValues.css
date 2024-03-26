@@ -10,3 +10,30 @@
     width: 8rem;
     padding-bottom: 0.5rem;
 }
+
+/* Tablet Sizing */
+@media (max-width: 1024px) {
+    .core-values-img{
+        height: 7rem;
+        width: 7rem;
+        /* padding-bottom: 0.5rem; */
+    }
+
+    .single-core-values-container h5{
+        font-size: 1.5rem
+    }
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+    @media (max-width: 1024px) {
+        .core-values-img{
+            height: 5rem;
+            width: 5rem;
+        }
+    
+        .single-core-values-container h5{
+            font-size: 1rem
+        }
+    }
+}

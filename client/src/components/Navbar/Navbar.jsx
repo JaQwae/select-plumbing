@@ -69,7 +69,7 @@ const Navbar = () => {
             >
               <button 
                 id="nav-request-service-btn" 
-                className='btn secondary-btn nav-elements'
+                className='btn nav-elements'
               >Request Service</button>
             </a>
           </div>
