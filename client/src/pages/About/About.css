@@ -92,9 +92,125 @@
 }
 
 #service-area-container button {
-    padding: 1rem
+    padding: 1rem;
 }
 
 #google-map{
     width: 80%
+}
+
+/* Tablet Sizing */
+@media (max-width: 1024px) {
+    #intro-content-container{
+        width: 35%;
+    }
+    
+    #intro-content-container p {
+        font-size: 0.9rem;
+        width: 85%;
+        padding-bottom: 1rem;
+        font-weight: 500;
+    }
+    
+    #intro-content-container button {
+        padding: 1rem;
+    }
+
+    #staff-photo{
+        width: 65%;
+    } 
+
+    #core-values-image{
+        width: 40%;
+    }
+    
+    #core-values-container{
+        width: 60%;
+        grid-row-gap: 0rem;
+    }
+
+    #service-area-container{
+        width: 50%;
+    }
+
+    #service-areas p{
+        text-align: center;
+        font-weight: 500;
+    }
+
+    #service-area-container button {
+        font-size: 1.1rem;
+    }
+
+    #google-map{
+        width: 50%
+    }
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+    #about-page-title{
+        padding: 1rem 1rem;
+        font-size: 2rem;
+    }
+
+    #intro-section {
+        flex-direction: column;
+    }
+
+    #intro-content-container{
+        width: 100%;
+    }
+
+    #intro-content-container {
+        padding: 1rem 0rem;
+    }
+
+    #intro-content-container button {
+        padding: 0.5rem;
+        margin-bottom:1rem;
+    }
+
+    #staff-photo{
+        width: 100%;
+    } 
+    
+    #core-values-section{
+        flex-direction: column;
+    }
+
+    #core-values-image{
+        width: 100%;
+    }
+    
+    #core-values-container{
+        width: 100%;
+        padding: 1rem 0rem;
+        grid-row-gap: 2rem;
+    }
+
+    #core-values-image{
+        height: 18rem;
+    }
+
+    #about-map-container{
+        flex-direction: column;
+    }
+
+    #service-area-container{
+        width: 100%;
+    }
+
+    #service-areas p{
+        text-align: center;
+        font-weight: 500;
+    }
+
+    #service-area-container button {
+        font-size: 1.1rem;
+    }
+
+    #google-map{
+        width: 100%
+    }
 }

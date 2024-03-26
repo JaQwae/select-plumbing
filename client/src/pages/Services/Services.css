@@ -29,6 +29,10 @@
     font-weight: 500;
 }
 
+.service-btn{
+    
+}
+
 /* Phone Sizing */
 @media screen and (max-width: 576px) {
     .service-btn{

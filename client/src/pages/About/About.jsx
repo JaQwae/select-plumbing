@@ -16,7 +16,7 @@ const About = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button className='btn secondary-btn'>Request Service</button>
+            <button className='btn'>Request Service</button>
           </a>
         </div>
         <img
@@ -56,7 +56,7 @@ const About = () => {
             rel='noopener noreferrer'
             className="blog-link read-more-links"
           >
-            <button className='btn secondary-btn'>Request Service</button>
+            <button className='btn'>Request Service</button>
           </a>
         </div>
         <div id="google-map">

@@ -41,7 +41,7 @@
 }
 .middle-section{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
@@ -50,6 +50,7 @@
     height: 4rem;
     width: 9rem;
     margin: 0.2rem;
+    margin: 2rem 
 }
 
 .har-com{

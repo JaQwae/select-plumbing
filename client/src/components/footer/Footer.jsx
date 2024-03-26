@@ -13,13 +13,13 @@ const Footer = () => {
                 <div className="social-media-container">
                     <i className="fa-brands fa-facebook-f social-media-icons footer-links"></i>
                     <i className="fa-brands fa-instagram social-media-icons footer-links"></i>
-                    <i className="fa-brands fa-x-twitter social-media-icons footer-links"></i>
+                    <i className="fa-brands fa-linkedin-in social-media-icons footer-links"></i>
                 </div>
                 <p>MPL 19051</p>
             </section>
             <section className="middle-section">
-                <img src={accBusRating} alt="A+ BBB accredited business" className="accredited-business-rating footer-images"/>
                 <img src={harLogo} alt="har.com" className="har-com footer-images" />
+                <img src={accBusRating} alt="A+ BBB accredited business" className="accredited-business-rating footer-images"/>
                 <img src={fpaLogo} alt="Foundation Performance Association" className="fpa-logo footer-images" />
             </section>
             <section className="right-section">
