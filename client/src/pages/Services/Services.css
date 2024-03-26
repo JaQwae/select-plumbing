@@ -29,8 +29,8 @@
     font-weight: 500;
 }
 
-.service-btn{
-    
+.service-btn:hover{
+    box-shadow: 0px 1px 25px var(--tertiary-color);
 }
 
 /* Phone Sizing */

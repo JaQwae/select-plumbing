@@ -33,7 +33,7 @@ const Home = () => {
           <ServicesContainer data={homeData.serviceOverview} page="home"/>
         </div>
         <Link to="/services" className="nav-links">
-          <button id="home-request-service" className='btn'>View All Services</button>
+          <button id="home-request-service" className='btn-over-white btn'>View All Services</button>
         </Link>
       </section>
       <section id="review-container" className='homepage-containers'>
