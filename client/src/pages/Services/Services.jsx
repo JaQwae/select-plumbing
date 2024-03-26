@@ -9,8 +9,6 @@ const Services = () => {
 
   const handleClick = (cat) => {
     setCategory(cat);
-    // e.target.style.backgroundColor = "#ff0100";
-    // console.log(e)
   }
 
   return (

@@ -96,6 +96,13 @@
 
 /* Tablet Sizing */
 @media (max-width: 1024px) {
+    .navbar {
+        /* background: rgb(255,255,255);
+        background: linear-gradient(50deg, rgba(255,255,255,1) 0%, rgba(23,48,104,1) 100%); */
+        background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(23,48,104,1) 85%);
+    }
+
     .hamburger-menu{
         display: flex;
         padding-top: 10px;
