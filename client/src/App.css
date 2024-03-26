@@ -22,8 +22,6 @@
 } */
 
 .btn:hover {
-    /* background-color: var(--tertiary-color);
-    color: var(--secondary-color); */
     background-color: var(--tertiary-color);
     border: 2px solid var(--tertiary-color);
     box-shadow: 0px 1px 25px var(--secondary-color);
@@ -49,7 +47,6 @@
     font-size: 3rem;
     color: var(--primary-color);
     text-shadow: 0 0 1px var(--tertiary-color);
-    /* -webkit-text-stroke: 1px var(--tertiary-color); */
 }
 
 .header-line {

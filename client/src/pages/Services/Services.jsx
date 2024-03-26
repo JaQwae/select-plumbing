@@ -8,7 +8,9 @@ const Services = () => {
   const [category, setCategory] = useState("All");
 
   const handleClick = (cat) => {
-    setCategory(cat)
+    setCategory(cat);
+    // e.target.style.backgroundColor = "#ff0100";
+    // console.log(e)
   }
 
   return (

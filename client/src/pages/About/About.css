@@ -160,15 +160,17 @@
 
     #intro-content-container{
         width: 100%;
+        padding: 1rem 0rem 0rem;
     }
 
-    #intro-content-container {
-        padding: 1rem 0rem;
+    #intro-content-container a {
+        width: 100%;
     }
-
     #intro-content-container button {
-        padding: 0.5rem;
-        margin-bottom:1rem;
+        margin-bottom:0rem;
+        font-size: 1.5rem;
+        width:100%;
+        padding: 1rem 0rem;
     }
 
     #staff-photo{
@@ -201,13 +203,29 @@
         width: 100%;
     }
 
+    #service-area-header h4 {
+        font-size: 2rem;
+        padding: 0.5rem 0rem 0rem;
+    }
+    
+    #service-area-header hr {
+        width: 100%;
+        border: solid var(--tertiary-color) 3px;
+    }
+
     #service-areas p{
-        text-align: center;
-        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    #service-area-container a {
+        width: 100%
     }
 
     #service-area-container button {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
+        width:100%;
+        padding: 1rem 0rem;
+        /* text-align: center; */
     }
 
     #google-map{
