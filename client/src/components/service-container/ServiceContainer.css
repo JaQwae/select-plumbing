@@ -73,10 +73,12 @@
     /* background-color: blueviolet; */
     width: 100%;
     color: var(--accent-color);
+    font-weight: 500;
 }
 
 .service-link:hover{
     scale:1.2;
+    color: var(--tertiary-color);
 }
 
 /* Tablet Sizing */
