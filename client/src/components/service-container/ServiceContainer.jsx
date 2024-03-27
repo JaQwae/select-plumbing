@@ -17,9 +17,11 @@ const ServicesContainer = (props) => {
         <>
         {filteredData.map((item) => (
             <section key={item.id} className='service-container'>
-                {/* <img className='service-image' src={item.icon} alt={item.alt} /> */}
-                <i className={`service-icon ${item.icon}`}></i>
-                <hr className='service-break'/>
+                <div className="service-container-header">
+                    <i className={`service-icon ${item.icon}`}></i>
+                    <hr className='service-break'/>
+                </div>
+                <div className="service-container-content">
                 <h2 className="service-title">{item.title}</h2>
                 <div className='services-preview homepage-service-preview'>
                     {page === "home" &&
@@ -31,7 +33,7 @@ const ServicesContainer = (props) => {
                     }
                     { page === "service" &&
                         <>
-                            <p>{item.desc}</p>
+                            <p className='service-description'>{item.desc}</p>
                             {item.link !== "none" &&
                                 <a 
                                     className='service-link'
@@ -44,6 +46,7 @@ const ServicesContainer = (props) => {
                             }
                         </>
                     }
+                </div>
                 </div>
             </section>
         ))}

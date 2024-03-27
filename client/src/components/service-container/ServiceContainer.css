@@ -28,13 +28,20 @@
     color: var(--secondary-color);
 }
 
-.service-image{
-    height: 10rem;
-    width: 8rem;
+.service-container-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 33%;
+    max-height: 33%;
+    /* background-color: blanchedalmond; */
 }
 
 .service-icon{
-    font-size: 5rem
+    font-size: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .service-container hr {
@@ -42,8 +49,29 @@
     width: 6rem;
 }
 
+.service-container-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 65%;
+    max-height: 65%;
+    /* background-color: red; */
+    padding-top: 1.5rem;
+    position: relative;
+}
+
+.service-description{
+    text-align: center;
+}
+
 .service-link{
     text-decoration: none;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    left:0;
+    /* background-color: blueviolet; */
+    width: 100%;
     color: var(--accent-color);
 }
 
