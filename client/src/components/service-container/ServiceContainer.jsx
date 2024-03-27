@@ -17,7 +17,8 @@ const ServicesContainer = (props) => {
         <>
         {filteredData.map((item) => (
             <section key={item.id} className='service-container'>
-                <img className='service-image' src={item.icon} alt={item.alt} />
+                {/* <img className='service-image' src={item.icon} alt={item.alt} /> */}
+                <i className={`service-icon ${item.icon}`}></i>
                 <hr className='service-break'/>
                 <h2 className="service-title">{item.title}</h2>
                 <div className='services-preview homepage-service-preview'>

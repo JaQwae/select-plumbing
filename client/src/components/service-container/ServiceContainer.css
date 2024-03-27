@@ -33,6 +33,10 @@
     width: 8rem;
 }
 
+.service-icon{
+    font-size: 5rem
+}
+
 .service-container hr {
     border: 4px solid var(--accent-color);
     width: 6rem;
