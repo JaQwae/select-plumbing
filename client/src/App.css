@@ -43,8 +43,8 @@
 }
 
 .page-title{
-    margin: 0.5rem 0rem;
-    font-size: 3rem;
+    margin: 1rem 0rem;
+    font-size: 4rem;
     color: var(--primary-color);
     text-shadow: 0 0 1px var(--tertiary-color);
 }
