@@ -14,6 +14,7 @@
 }
 
 #slogan-container{
+    display: none;
     font-weight: 700;
     font-size: 2rem;
     position: absolute;
@@ -102,6 +103,22 @@
 
 /* Tablet Sizing */
 @media screen and (max-width: 1024px) {
+    #hero-container{
+        background-image: url("../../assets/images/home-images/selectPlumbingMobileHeroImage.png");
+        background-position: center;
+        display: flex;
+    }
+
+    #slogan-container{
+        display: block;
+        font-weight: 700;
+        font-size: 2rem;
+        position: absolute;
+        top:60%;
+        left:10%;
+        text-shadow: 2px 2px var(--primary-color);
+    }
+
     #hero-btn {
         left:65%;
         height: 4rem;
@@ -118,16 +135,20 @@
         height: 120vh;
     }
 
-    #hero-container{
-        /* background-image: url("../../assets/images/home-images/selectPlumbingHeroImage.png"); */
-        /* background-position: center; */
-        display: flex;
-    }
-
     #hero-container a {
         text-decoration: none;
         position: static;
         align-self: end;
+    }
+
+    #slogan-container{
+        font-weight: 700;
+        font-size: 1.8rem;
+        /* text-align: center; */
+        /* position: absolute; */
+        top:60%;
+        left:15%;
+        /* text-shadow: 2px 2px var(--primary-color); */
     }
 
     #hero-btn {
