@@ -5,10 +5,12 @@
     width: 25rem;
     margin-bottom: 2rem;
     box-shadow: var(--container-shadow);
+    color: var(--primary-color);
 }
 
 .blog-info-header{
     display: flex;
+    color: grey;
 }
 
 .blog-author{
@@ -19,3 +21,25 @@
     margin-left: var(--info-spacing);
 }
 
+.card-title{
+    font-size: 2rem;
+}
+
+.read-more-links:hover {
+    color: var(--tertiary-color);
+}
+
+/* Tablet Sizing */
+@media (max-width: 1024px) {
+    .card {
+        width: 22rem;
+        margin-bottom: 2rem;
+        box-shadow: var(--container-shadow);
+        color: var(--primary-color);
+    }
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+
+}
