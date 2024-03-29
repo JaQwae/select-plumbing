@@ -186,6 +186,15 @@
         width: 15rem;
     }
 
+    .social-media-container{
+        width: 90%
+    }
+
+    .social-media-icons{
+        font-size: 2rem;
+        margin: 0rem 0rem;
+    }
+
     .right-section{
         width: 100%;
         align-items: center;

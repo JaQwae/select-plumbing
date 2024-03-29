@@ -4,3 +4,13 @@
     justify-content:space-around;
     flex-wrap: wrap;
 }
+
+/* Tablet Sizing */
+@media (max-width: 1024px) {
+
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+
+}
