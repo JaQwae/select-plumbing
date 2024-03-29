@@ -30,10 +30,10 @@ const Navbar = () => {
         <div className={`navbar-content open-${hamburgerOpen}`}>
           <div id="nav-links-section" className={`navbar-content-section`}>
             <Link to="/" className="nav-links">
-              <li className="nav-elements">Home</li>
+              <li className="nav-elements" onClick={toggleHamburger}>Home</li>
             </Link>
             <Link to="/services" className="nav-links">
-              <li className="nav-elements">Services</li>
+              <li className="nav-elements" onClick={toggleHamburger}>Services</li>
             </Link>
             <li className=" dropdown nav-links nav-elements">
               <a className="dropdown-toggle nav-elements nav-links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,7 +41,7 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu">
                 <Link to="/blog" className="nav-links ">
-                  <li className="nav-elements dropdown-item">Blog</li>
+                  <li className="nav-elements dropdown-item" onClick={toggleHamburger}>Blog</li>
                 </Link>
                 {/* <hr className="dropdown-divider" />
                 <Link to="/news" className="nav-links ">
@@ -49,19 +49,25 @@ const Navbar = () => {
                 </Link> */}
                 <hr className="dropdown-divider" />
                 <Link to="/promotions" className="nav-links ">
-                  <li className="nav-elements dropdown-item">Promotions</li>
+                  <li className="nav-elements dropdown-item" onClick={toggleHamburger}>Promotions</li>
                 </Link>
               </ul>
             </li>
             <Link to="/about" className="nav-links">
-              <li className="nav-elements">About</li>
+              <li className="nav-elements" onClick={toggleHamburger}>About</li>
             </Link>
             <Link to="/gallery" className="nav-links">
-              <li className="nav-elements">Gallery</li>
+              <li className="nav-elements" onClick={toggleHamburger}>Gallery</li>
             </Link>
           </div>
           <div id="nav-contact-section" className='navbar-content-section'>
-            <li id="nav-phone-number" className='nav-elements'><i className="fa-solid fa-phone"></i> (555)-555-5555</li>
+            <li 
+              id="nav-phone-number" 
+              className='nav-elements'
+              onClick={toggleHamburger}
+            >
+              <i className="fa-solid fa-phone"></i> (555)-555-5555
+            </li>
             <a
               href="https://form.jotform.com/240635777814162"
               target= '_blank'
@@ -70,6 +76,7 @@ const Navbar = () => {
               <button 
                 id="nav-request-service-btn" 
                 className='btn nav-elements'
+                onClick={toggleHamburger}
               >Request Service</button>
             </a>
           </div>
