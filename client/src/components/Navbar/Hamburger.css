@@ -1,6 +1,6 @@
 .hamburger {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
@@ -8,10 +8,27 @@
 }
 
 .burger {
-    width: 2rem;
-    height: 0.25rem;
+    width: 3rem;
+    height: 0.5rem;
     border-radius: 10px;
     background-color: var(--tertiary-color);
     transform-origin: 1px;
     transition: all 0.3s linear;
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+    .hamburger {
+        width: 1.5rem;
+        height: 2rem;
+    }
+    
+    .burger {
+        width: 2rem;
+        height: 0.25rem;
+        border-radius: 10px;
+        background-color: var(--tertiary-color);
+        transform-origin: 1px;
+        transition: all 0.3s linear;
+    }
 }

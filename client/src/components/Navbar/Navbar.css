@@ -97,16 +97,15 @@
 /* Tablet Sizing */
 @media (max-width: 1024px) {
     .navbar {
-        /* background: rgb(255,255,255);
-        background: linear-gradient(50deg, rgba(255,255,255,1) 0%, rgba(23,48,104,1) 100%); */
         background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(23,48,104,1) 85%);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(23,48,104,1) 100%);
+        padding: 1rem 1.5rem;
     }
 
     .hamburger-menu{
         display: flex;
-        padding-top: 10px;
-        margin-left: 10px;
+        /* padding-top: 10px; */
+        /* margin-left: 10px; */
         z-index: 10;
     }
 
@@ -176,4 +175,14 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(23,48,104,1) 85%)
 
 /* Phone Sizing */
 @media screen and (max-width: 576px) {
+    .navbar {
+        background: rgb(255,255,255);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(23,48,104,1) 100%);
+        padding: 0.5rem 1rem;
+    }
+
+    #company-logo {
+        height: 3rem;
+        width: 6rem;
+    }
 }
