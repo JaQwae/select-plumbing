@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import ServicesContainer from '../../components/service-container/ServiceContainer';
 import serviceData from "../../data/serviceData.json"
+import Footer from "../../components/footer/Footer"
 import "../Home/Home.css"
 import "./Services.css"
 
@@ -29,6 +30,7 @@ const Services = () => {
       <section id="services-container">
         <ServicesContainer data={serviceData.services} page="service" category={category}/>
       </section>
+      <Footer/>
     </div>
   )
 }
