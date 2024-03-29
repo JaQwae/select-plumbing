@@ -5,40 +5,70 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: var(--container-shadow);
 }
 
 .promotion-content{
     display: flex;
     flex-direction: column;
     border: var(--secondary-color) dashed 3px;
-    padding: 5rem 5rem 2rem;
+    padding: 5rem 1rem 2rem;
 }
 
 .promotion-title {
     padding:0rem;
     margin-top: -6.3rem;
     color: var(--secondary-color);
-    background-color: var(--primary-color)
+    background-color: var(--primary-color);
+    text-align: center;
 }
 
 .promotion-content p {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    padding-bottom: 1rem;
+    /* margin-top: 1rem; */
 }
 
 .promotion-discount{
     font-size: 3rem;
+    color: var(--tertiary-color);
+    text-align: center;
 }
 
 .promotion-summary{
     display:flex;
     flex-wrap: wrap;
+    text-align: center;
     width: 50%;
     margin:auto;
     font-size: 1rem;
 }
 
+.btn-link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
 .promotion-content button {
     height: 2rem;
+    /* margin:auto; */
+    width: 60%;
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+    .promotion-discount {
+        font-size: 3rem;
+        margin-bottom: 0rem;
+    }
+
+    .promotion-summary{
+        width: 80%
+    }
+
+    .promotion-content button {
+        width: 70%;
+    }
 }
