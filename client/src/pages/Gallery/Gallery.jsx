@@ -1,6 +1,7 @@
 import React from 'react'
-import "./Gallery.css"
 import GalleryPhoto from '../../components/gallery-photo/GalleryPhoto'
+import Footer from '../../components/footer/Footer'
+import "./Gallery.css"
 
 const Gallery = () => {
   return (
@@ -12,6 +13,7 @@ const Gallery = () => {
       <div id="photo-container">
         <GalleryPhoto/>
       </div>
+      <Footer/>
     </div>
   )
 }

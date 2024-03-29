@@ -2,6 +2,7 @@ import React from 'react'
 import CoreValues from '../../components/core-values/CoreValues'
 import selectPlumbingGroupPhoto from "../../assets/images/about-images/select-plumbing-group-photo.png"
 import ourCoreValuesBanner from "../../assets/images/about-images/our-core-value-banner.png"
+import Footer from "../../components/footer/Footer"
 import "./About.css"
 
 const About = () => {
@@ -63,7 +64,7 @@ const About = () => {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d186668.20637304374!2d-95.73604059500141!3d29.616783654145564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sus!4v1710288767658!5m2!1sen!2sus"
             width="100%"
-            height="450"
+            height="100%"
             style={{ border: "0" }}
             allowFullScreen=""
             loading="lazy"
@@ -71,6 +72,7 @@ const About = () => {
           ></iframe>
         </div>
       </section>
+      <Footer/>
     </div>
   )
 }
