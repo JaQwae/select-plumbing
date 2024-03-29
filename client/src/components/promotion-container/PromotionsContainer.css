@@ -60,7 +60,7 @@
 /* Phone Sizing */
 @media screen and (max-width: 576px) {
     .promotion-discount {
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 0rem;
     }
 
