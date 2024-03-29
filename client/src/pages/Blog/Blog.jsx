@@ -1,5 +1,6 @@
 import React from 'react'
 import BlogContainer from '../../components/blog-container/BlogContainer'
+import Footer from "../../components/footer/Footer"
 import "./Blog.css"
 
 const Blog = () => {
@@ -12,6 +13,7 @@ const Blog = () => {
       <div id="blog-container">
         <BlogContainer/>
       </div>
+      <Footer/>
     </div>
   )
 
