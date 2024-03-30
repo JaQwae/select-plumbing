@@ -1,5 +1,5 @@
 import React from 'react'
-import galleryData from '../../data/galleryData.json'
+import {galleryData} from '../../data/galleryData.js'
 import "./GalleryPhoto.css"
 
 const GalleryPhoto = () => {
