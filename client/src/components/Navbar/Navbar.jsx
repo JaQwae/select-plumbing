@@ -36,7 +36,7 @@ const Navbar = () => {
               <li className="nav-elements" onClick={toggleHamburger}>Services</li>
             </Link>
             <li className=" dropdown nav-links nav-elements">
-              <a className="dropdown-toggle nav-elements nav-links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a id="resource-nav-link" className="dropdown-toggle nav-elements nav-links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Resources
               </a>
               <ul className="dropdown-menu">

@@ -41,7 +41,6 @@
 
 .nav-elements:hover{
     color:var(--accent-color);
-    scale: 1.1;
 }
 
 
@@ -150,7 +149,7 @@
     }
 
     .dropdown-menu {
-        width:100%
+        width:100%;
     }
 
     /* #nav-phone-number {
