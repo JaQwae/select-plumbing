@@ -43,6 +43,10 @@
     width: 50%;
     margin:auto;
     font-size: 1rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .btn-link{
