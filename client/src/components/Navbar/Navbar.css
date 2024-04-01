@@ -80,6 +80,14 @@
     align-self: end;
 }
 
+#nav-phone-number a{
+    color: var(--secondary-color);
+}
+
+#nav-phone-number a:hover {
+    color: var(--accent-color);
+}
+
 #nav-request-service-btn{
     padding: 0.3rem 1.5rem;
 }

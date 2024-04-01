@@ -6,8 +6,8 @@
 }
 
 .footer-links:hover {
-    scale: 1.1;
     color: var(--tertiary-color);
+    transition: 0.3 ease-in-out;
 }
 
 .left-section{
@@ -30,9 +30,18 @@
     color: var(--primary-color);
 }
 
+.social-media-container a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 .social-media-icons{
     font-size: 1.7rem;
     margin: 0.5rem;
+}
+
+.social-media-icons:hover{
+    scale: 1.2;
 }
 
 .left-section p {
@@ -109,9 +118,19 @@
     margin-top: 1rem;
 }
 
+.phone-number-container a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 .email-container{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
+}
+
+.email-container a {
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 /* Tablet Sizing */
@@ -129,6 +148,7 @@
     }
     
     .social-media-container{
+        justify-content: center;
         width: 10rem;
         margin-bottom: 1rem;
     }
@@ -175,12 +195,16 @@
         flex-direction: column;
     }
 
+    .footer-section{
+        padding: 1.5rem 0rem;
+    }
+
     .left-section{
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        order: 1
+        order: 1;
     }
 
     .footer-logo{
@@ -190,6 +214,7 @@
     }
 
     .social-media-container{
+        justify-content: space-evenly;
         width: 90%
     }
 
@@ -208,22 +233,23 @@
     }
 
     .footer-contact-header h3 {
+        font-size: 2rem;
         margin-bottom: 0.5rem;
     }
 
     .footer-contact-header hr{
-        border: solid red 6px;
-        width:80%;
+        border: solid red 3px;
+        width:90%;
         margin:auto;
     }
 
     .footer-icons{
         height: 2rem;
         margin-right: 1rem;
-        scale: 1.5;
-        display: flex;
-        align-items: center;
-        color: var(--tertiary-color)
+        /* scale: 1.5; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* color: var(--tertiary-color) */
     }
 
     .address-container{
@@ -239,5 +265,18 @@
         margin: 2rem 0rem;
     }
 
+    .footer-images{
+        height: 3rem;
+        width: 4rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
 
+    .phone-number-container a {
+        color: var(--secondary-color);
+    }
+
+    .email-container a {
+        color: var(--secondary-color);
+    }
 }

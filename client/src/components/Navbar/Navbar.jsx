@@ -66,7 +66,8 @@ const Navbar = () => {
               className='nav-elements'
               onClick={toggleHamburger}
             >
-              <i className="fa-solid fa-phone"></i> (555)-555-5555
+              <i className="fa-solid fa-phone"></i> 
+              <a href="tel:281-561-9651">(281) 561-9651</a>
             </li>
             <a
               href="https://form.jotform.com/240635777814162"
