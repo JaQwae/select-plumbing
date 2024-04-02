@@ -141,14 +141,6 @@
     .footer-container{
         padding: 1rem 0rem;
     }
-
-    .left-section{
-        margin: 0rem 2rem;
-    }
-
-    .footer-logo{
-        margin-bottom: 1rem;
-    }
     
     .social-media-container{
         justify-content: center;
@@ -157,12 +149,12 @@
     }
     
     .social-media-icons{
-        font-size: 1.6rem;
-        margin: 0rem 2rem;
+        font-size: 1.8rem;
+        margin: 0rem 1.5rem;
     }
     
     .left-section p {
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.3rem;
         font-weight: 700;
     }
 
@@ -174,10 +166,6 @@
     
     .har-com{
         width: 3rem;
-    }
-
-    .right-section{
-        margin: 0rem 1rem;
     }
 
     .footer-contact-header hr {
@@ -211,6 +199,7 @@
         justify-content: center;
         align-items: center;
         order: 1;
+        margin-bottom: 1.5rem;
     }
 
     .footer-logo{
@@ -231,7 +220,12 @@
 
     .social-media-icons{
         font-size: 2rem;
+        font-weight: 900;
         margin: 0rem 0rem;
+    }
+
+    .left-section p {
+        letter-spacing: 0.5rem;
     }
 
     .right-section{
@@ -240,6 +234,7 @@
         color:var(--secondary-color);
         background-color: var(--primary-color);
         margin: 0rem;
+        padding: 2rem 0rem;
         order: 2
     }
 
@@ -274,6 +269,7 @@
         justify-content: space-around;
         /* align-items: center; */
         margin: 2rem 0rem;
+        padding: 0rem;
     }
 
     .footer-images{
