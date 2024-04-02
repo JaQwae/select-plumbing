@@ -4,7 +4,7 @@ import "./Promotion.css"
 
 const Promotions = () => {
   return (
-    <div className='promotions-page'>
+    <div id='promotions-page' className='pages'>
       <div className="page-header">
         <h1 id="promotions-header" className="page-title">Promotions</h1>
         {/* <hr className='header-line' /> */}

@@ -29,6 +29,10 @@
     box-shadow: 0px 1px 25px var(--tertiary-color);
 }
 
+.pages{
+    padding-top: 8rem;
+}
+
 .page-header {
     display: flex;
     flex-direction: column;
@@ -62,3 +66,22 @@
     color: var(--accent-color);
 }
 
+.nav-active {
+    background-color: rgba(16, 15, 15, 0.311);
+    height: 100%;
+    width: 100%;
+}
+
+/* Tablet Sizing */
+@media (max-width: 1024px) {
+    .pages{
+        padding-top: 10rem;
+    }
+}
+
+/* Phone Sizing */
+@media screen and (max-width: 576px) {
+    .pages{
+        padding-top: 6rem;
+    }
+}

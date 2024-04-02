@@ -8,7 +8,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <>
+    <div className='page'>
       <section id='hero-container' className='homepage-containers'>
         <article id="slogan-container">
           <p>Trusted By Houston</p>
@@ -60,7 +60,7 @@ const Home = () => {
         </div>
       </section>
       <Footer/>
-    </>
+    </div>
   )
 }
 

@@ -5,7 +5,7 @@ import "./Blog.css"
 
 const Blog = () => {
   return (
-    <div id="blog-page">
+    <div id="blog-page" className='pages'>
       <div className="page-header">
         <h1 id="blog-header" className="page-title">Blog</h1>
         {/* <hr className='header-line' /> */}

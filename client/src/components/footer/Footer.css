@@ -21,6 +21,9 @@
 .footer-logo{
     height: 6rem;
     width: 13rem;
+
+    /* New styling to make the photo work */
+    height: 8rem;
 }
 
 .social-media-container{
@@ -197,6 +200,9 @@
 
     .footer-section{
         padding: 1.5rem 0rem;
+
+        /* New styling to make the photo work */
+        padding: 0.5rem 0rem;
     }
 
     .left-section{
@@ -210,7 +216,12 @@
     .footer-logo{
         margin-top: 1rem;
         height: 8rem;
-        width: 15rem;
+        /* width: 15rem; */
+
+        /* New styling to make the photo work */
+        height: 10rem;
+        margin-top: 0rem;
+        width: 18rem;
     }
 
     .social-media-container{

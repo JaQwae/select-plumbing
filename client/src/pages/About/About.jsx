@@ -1,13 +1,14 @@
 import React from 'react'
 import CoreValues from '../../components/core-values/CoreValues'
-import selectPlumbingGroupPhoto from "../../assets/images/about-images/select-plumbing-group-photo.png"
+// import selectPlumbingGroupPhoto from "../../assets/images/about-images/select-plumbing-group-photo.png"
+import newAboutPhoto from "../../assets/images/about-images/new-about-photo.jpg"
 import ourCoreValuesBanner from "../../assets/images/about-images/our-core-value-banner.png"
 import Footer from "../../components/footer/Footer"
 import "./About.css"
 
 const About = () => {
   return (
-    <div id="about-page">
+    <div id="about-page" className='pages'>
       <h1 id="about-page-title" className='page-title'>Welcome To Select Plumbing Let Us Serve Your Family</h1>
       <section id="intro-section" className='about-page-sections'>
         <div id="intro-content-container">
@@ -21,9 +22,9 @@ const About = () => {
           </a>
         </div>
         <img
-          id="staff-photo"
+          id="about-photo"
           className='about-page-photos'
-          src={selectPlumbingGroupPhoto}
+          src={newAboutPhoto}
           alt="The full staff of select plumbing"
         />
       </section>

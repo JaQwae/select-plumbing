@@ -15,7 +15,7 @@ const Services = () => {
   }
 
   return (
-    <div id="service-page">
+    <div id="service-page" className='pages'>
       <section className='page-header'>
         <h1 className='page-title'>Services</h1>
         {/* <hr className='header-line'/> */}

@@ -1,15 +1,27 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import Hamburger from './Hamburger';
-import logo from "../../assets/images/logo.png";
+// import logo from "../../assets/images/logo.png";
+import newLogo from "../../assets/images/newLogo.jpg"
 import "./Navbar.css";
 
 
 const Navbar = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  // let page = document.getElementsByClassName("page")[0];
+  // console.log(page)
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
+    // console.log(hamburgerOpen);
+
+    // if(hamburgerOpen === false) {
+    //   page.classList.add("nav-active");
+    //   alert("hi")
+    // } else {
+    //   page.classList.remove("nav-active")
+    //   alert("bye")
+    // }
   }
 
   return (
@@ -18,7 +30,7 @@ const Navbar = () => {
       <div id="mobile-nav">
         <Link to="/">
           <img
-            src={logo}
+            src={newLogo}
             alt="Company-Logo"
             id="company-logo"
           />

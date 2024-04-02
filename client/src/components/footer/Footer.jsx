@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from "../../assets/images/logo.png"
+// import logo from "../../assets/images/logo.png"
+import newLogo from "../../assets/images/newLogo.jpg"
 import accBusRating from "../../assets/images/footer-images/accBusRating.png"
 import harLogo from "../../assets/images/footer-images/harLogo.png"
 import fpaLogo from "../../assets/images/footer-images/fpaLogo.png"
@@ -9,7 +10,7 @@ const Footer = () => {
     return (
         <div className='footer-container'>
             <section className="left-section footer-section">
-                <img className='footer-logo' src={logo} alt="company logo"/>
+                <img className='footer-logo' src={newLogo} alt="company logo"/>
                 <div className="social-media-container">
                     <a 
                         href="https://www.facebook.com/SelectLeakInvestigators/" 
