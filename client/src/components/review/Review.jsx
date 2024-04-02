@@ -1,6 +1,7 @@
 import React from 'react'
 import { PropTypes } from "prop-types";
-import googleReviewLogo from "../../assets/images/home-images/googleReviewLogo.png"
+// import googleReviewLogo from "../../assets/images/home-images/googleReviewLogo.png"
+import googleReviewLogoNew from "../../assets/images/home-images/new-google-review-image.png"
 import googleStars from "../../assets/images/home-images/googleStars.png"
 import "./Review.css"
 
@@ -13,7 +14,7 @@ const Review = (props) => {
             <div className='review-header'>
                 <img
                     className='google-logo'
-                    src={googleReviewLogo}
+                    src={googleReviewLogoNew}
                     alt="google logo"
                 />
                 <img
