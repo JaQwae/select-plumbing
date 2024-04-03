@@ -7,6 +7,11 @@ import Footer from '../../components/footer/Footer';
 import "./Home.css";
 
 const Home = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant'
+  });
+
   return (
     <div className='page'>
       <section id='hero-container' className='homepage-containers'>

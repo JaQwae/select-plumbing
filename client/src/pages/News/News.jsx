@@ -3,6 +3,11 @@ import NewsContainer from '../../components/news-contianer/NewsContainer'
 
 
 const News = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant'
+  });
+
   return (
     <div id="news-page" className='pages'>
       <div className="page-header">

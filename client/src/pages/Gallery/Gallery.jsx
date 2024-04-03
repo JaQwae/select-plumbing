@@ -4,6 +4,11 @@ import Footer from '../../components/footer/Footer'
 import "./Gallery.css"
 
 const Gallery = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant'
+  });
+
   return (
     <div id="gallery-page" className='pages'>
       <div className="page-header">

@@ -3,6 +3,11 @@ import PromotionsContainer from '../../components/promotion-container/Promotions
 import "./Promotion.css"
 
 const Promotions = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant'
+  });
+
   return (
     <div id='promotions-page' className='pages'>
       <div className="page-header">

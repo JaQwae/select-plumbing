@@ -6,6 +6,11 @@ import "../Home/Home.css"
 import "./Services.css"
 
 const Services = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant'
+  });
+
   const [category, setCategory] = useState("All");
   const [activeButton, setActiveButton] = useState("All");
 

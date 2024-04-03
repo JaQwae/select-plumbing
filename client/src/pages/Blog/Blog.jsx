@@ -4,6 +4,11 @@ import Footer from "../../components/footer/Footer"
 import "./Blog.css"
 
 const Blog = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant'
+  });
+
   return (
     <div id="blog-page" className='pages'>
       <div className="page-header">

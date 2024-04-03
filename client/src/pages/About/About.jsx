@@ -7,6 +7,11 @@ import Footer from "../../components/footer/Footer"
 import "./About.css"
 
 const About = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant'
+  });
+
   return (
     <div id="about-page" className='pages'>
       <h1 id="about-page-title" className='page-title'>Welcome To Select Plumbing Let Us Serve Your Family</h1>
