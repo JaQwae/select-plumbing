@@ -135,6 +135,13 @@
         height: 120vh;
     }
 
+    #hero-container {
+        background-size:contain;
+        height: 40rem;
+        background-size: 50rem 35rem;
+        background-position: 35%;
+    }
+
     #hero-container a {
         text-decoration: none;
         position: static;
@@ -143,10 +150,10 @@
 
     #slogan-container{
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         /* text-align: center; */
         /* position: absolute; */
-        top:70%;
+        top:60%;
         left:15%;
         /* text-shadow: 2px 2px var(--primary-color); */
     }
@@ -167,5 +174,12 @@
         width: 100%;
         font-size: 1.8rem;
         margin-bottom: 0rem;
+    }
+
+    #review-container{
+        background-size:contain;
+        height: 40rem;
+        background-size: 50rem 40rem;
+        background-position: 45% 55%;
     }
 }
