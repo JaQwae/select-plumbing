@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import Hamburger from './Hamburger';
-// import logo from "../../assets/images/logo.png";
-import newLogo from "../../assets/images/newLogo.jpg"
+import logo from "../../assets/images/logo.png";
+// import newLogo from "../../assets/images/newLogo.jpg"
 import "./Navbar.css";
 
 
@@ -33,7 +33,7 @@ const Navbar = () => {
       <div id="mobile-nav">
         <Link to="/">
           <img
-            src={newLogo}
+            src={logo}
             alt="Company-Logo"
             id="company-logo"
           />
