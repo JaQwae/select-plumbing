@@ -14,6 +14,13 @@
 
 .homepage-service-preview{
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+
+.homepage-service-preview p{
+    text-align: center;
 }
 
 .service-container {
@@ -26,6 +33,11 @@
     justify-content: center;
     align-items: center;
     color: var(--secondary-color);
+}
+
+.homepage-service-container{
+    height: 35rem;
+    padding: 1rem;
 }
 
 .service-container-header{
@@ -64,6 +76,7 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 2.5rem;
 }
 
 .service-description{

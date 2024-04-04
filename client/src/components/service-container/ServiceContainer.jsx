@@ -16,7 +16,7 @@ const ServicesContainer = (props) => {
     return (
         <>
         {filteredData.map((item) => (
-            <section key={item.id} className='service-container'>
+            <section key={item.id} className='service-container homepage-service-container'>
                 <div className="service-container-header">
                     <i className={`service-icon ${item.icon}`}></i>
                     <hr className='service-break'/>
@@ -29,6 +29,8 @@ const ServicesContainer = (props) => {
                             <p>{item.serviceOne}</p>
                             <p>{item.serviceTwo}</p>
                             <p>{item.serviceThree}</p>
+                            <p>{item.serviceFour}</p>
+                            <p>{item.serviceFive}</p>
                         </>
                     }
                     { page === "service" &&
