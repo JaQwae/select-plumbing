@@ -6,8 +6,8 @@
 }
 
 .footer-links:hover {
-    scale: 1.1;
     color: var(--tertiary-color);
+    transition: 0.3 ease-in-out;
 }
 
 .left-section{
@@ -21,6 +21,9 @@
 .footer-logo{
     height: 6rem;
     width: 13rem;
+
+    /* New styling to make the photo work */
+    height: 8rem;
 }
 
 .social-media-container{
@@ -30,9 +33,18 @@
     color: var(--primary-color);
 }
 
+.social-media-container a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 .social-media-icons{
     font-size: 1.7rem;
     margin: 0.5rem;
+}
+
+.social-media-icons:hover{
+    scale: 1.2;
 }
 
 .left-section p {
@@ -76,10 +88,13 @@
     display: flex;
     align-self: center;
     margin: 0.5rem 0rem 0rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .footer-contact-header hr {
-    margin: 1rem 4rem;
+    margin: 0rem 4rem 0.5rem;
     border: var(--primary-color) solid 3px;
 }
 
@@ -106,9 +121,19 @@
     margin-top: 1rem;
 }
 
+.phone-number-container a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 .email-container{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
+}
+
+.email-container a {
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 /* Tablet Sizing */
@@ -116,27 +141,20 @@
     .footer-container{
         padding: 1rem 0rem;
     }
-
-    .left-section{
-        margin: 0rem 2rem;
-    }
-
-    .footer-logo{
-        margin-bottom: 1rem;
-    }
     
     .social-media-container{
+        justify-content: center;
         width: 10rem;
         margin-bottom: 1rem;
     }
     
     .social-media-icons{
-        font-size: 1.6rem;
-        margin: 0rem 2rem;
+        font-size: 1.8rem;
+        margin: 0rem 1.5rem;
     }
     
     .left-section p {
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.3rem;
         font-weight: 700;
     }
 
@@ -148,10 +166,6 @@
     
     .har-com{
         width: 3rem;
-    }
-
-    .right-section{
-        margin: 0rem 1rem;
     }
 
     .footer-contact-header hr {
@@ -172,27 +186,46 @@
         flex-direction: column;
     }
 
+    .footer-section{
+        padding: 1.5rem 0rem;
+
+        /* New styling to make the photo work */
+        padding: 0.5rem 0rem;
+    }
+
     .left-section{
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        order: 1
+        order: 1;
+        margin-bottom: 1.5rem;
     }
 
     .footer-logo{
         margin-top: 1rem;
         height: 8rem;
-        width: 15rem;
+        /* width: 15rem; */
+
+        /* New styling to make the photo work */
+        height: 10rem;
+        margin-top: 0rem;
+        width: 18rem;
     }
 
     .social-media-container{
+        justify-content: space-evenly;
         width: 90%
     }
 
     .social-media-icons{
         font-size: 2rem;
+        font-weight: 900;
         margin: 0rem 0rem;
+    }
+
+    .left-section p {
+        letter-spacing: 0.5rem;
     }
 
     .right-section{
@@ -201,26 +234,28 @@
         color:var(--secondary-color);
         background-color: var(--primary-color);
         margin: 0rem;
+        padding: 2rem 0rem;
         order: 2
     }
 
     .footer-contact-header h3 {
+        font-size: 2rem;
         margin-bottom: 0.5rem;
     }
 
     .footer-contact-header hr{
-        border: solid red 6px;
-        width:80%;
+        border: solid red 3px;
+        width:90%;
         margin:auto;
     }
 
     .footer-icons{
         height: 2rem;
         margin-right: 1rem;
-        scale: 1.5;
-        display: flex;
-        align-items: center;
-        color: var(--tertiary-color)
+        /* scale: 1.5; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* color: var(--tertiary-color) */
     }
 
     .address-container{
@@ -234,7 +269,21 @@
         justify-content: space-around;
         /* align-items: center; */
         margin: 2rem 0rem;
+        padding: 0rem;
     }
 
+    .footer-images{
+        height: 3rem;
+        width: 4rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
 
+    .phone-number-container a {
+        color: var(--secondary-color);
+    }
+
+    .email-container a {
+        color: var(--secondary-color);
+    }
 }

@@ -1,7 +1,8 @@
 .navbar {
     background-color: var(--primary-color);
     padding: 0.5rem 1rem;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 99;
     padding:0;
@@ -41,7 +42,6 @@
 
 .nav-elements:hover{
     color:var(--accent-color);
-    scale: 1.1;
 }
 
 
@@ -79,6 +79,14 @@
     font-size: 1.3rem;
     padding-right: 0.3rem;
     align-self: end;
+}
+
+#nav-phone-number a{
+    color: var(--secondary-color);
+}
+
+#nav-phone-number a:hover {
+    color: var(--accent-color);
 }
 
 #nav-request-service-btn{
@@ -150,7 +158,7 @@
     }
 
     .dropdown-menu {
-        width:100%
+        width:100%;
     }
 
     /* #nav-phone-number {
@@ -168,7 +176,7 @@
     #nav-request-service-btn{
         height: 4rem;
         width: 14rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 

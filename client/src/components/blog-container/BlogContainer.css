@@ -11,6 +11,10 @@
 .blog-info-header{
     display: flex;
     color: grey;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .blog-author{
@@ -23,6 +27,13 @@
 
 .card-title{
     font-size: 2rem;
+}
+
+.read-more-links {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .read-more-links:hover {

@@ -60,6 +60,12 @@
     position: relative;
 }
 
+.service-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .service-description{
     text-align: center;
 }
@@ -74,6 +80,10 @@
     width: 100%;
     color: var(--accent-color);
     font-weight: 500;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .service-link:hover{

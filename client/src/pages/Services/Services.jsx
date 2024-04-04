@@ -6,6 +6,11 @@ import "../Home/Home.css"
 import "./Services.css"
 
 const Services = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant'
+  });
+
   const [category, setCategory] = useState("All");
   const [activeButton, setActiveButton] = useState("All");
 
@@ -15,7 +20,7 @@ const Services = () => {
   }
 
   return (
-    <div id="service-page">
+    <div id="service-page" className='pages'>
       <section className='page-header'>
         <h1 className='page-title'>Services</h1>
         {/* <hr className='header-line'/> */}

@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import Hamburger from './Hamburger';
-import logo from "../../assets/images/logo.png";
+// import logo from "../../assets/images/logo.png";
+import newLogo from "../../assets/images/newLogo.jpg"
 import "./Navbar.css";
 
 
@@ -10,6 +11,20 @@ const Navbar = () => {
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
+    // console.log(hamburgerOpen);
+
+    let page = document.getElementsByClassName("pages")[0];
+
+    if(hamburgerOpen === false) {
+      console.log((page));
+
+      page.classList.add("hidden");
+      // alert("hi")
+    } else {
+      console.log((page));
+      page.classList.remove("hidden")
+      // alert("bye")
+    }
   }
 
   return (
@@ -18,7 +33,7 @@ const Navbar = () => {
       <div id="mobile-nav">
         <Link to="/">
           <img
-            src={logo}
+            src={newLogo}
             alt="Company-Logo"
             id="company-logo"
           />
@@ -36,7 +51,7 @@ const Navbar = () => {
               <li className="nav-elements" onClick={toggleHamburger}>Services</li>
             </Link>
             <li className=" dropdown nav-links nav-elements">
-              <a className="dropdown-toggle nav-elements nav-links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a id="resource-nav-link" className="dropdown-toggle nav-elements nav-links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Resources
               </a>
               <ul className="dropdown-menu">
@@ -66,7 +81,8 @@ const Navbar = () => {
               className='nav-elements'
               onClick={toggleHamburger}
             >
-              <i className="fa-solid fa-phone"></i> (555)-555-5555
+              <i className="fa-solid fa-phone"></i> 
+              <a href="tel:281-561-9651">(281) 561-9651</a>
             </li>
             <a
               href="https://form.jotform.com/240635777814162"
