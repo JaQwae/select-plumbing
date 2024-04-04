@@ -1,11 +1,12 @@
 .single-photo-container{
     overflow:hidden;
     box-shadow: var(--container-shadow);
+    display: flex;
 }
 
 .photo {
     height: 20rem;
-    width: 25rem;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -30,6 +31,6 @@
 
     .photo {
         height: 15rem;
-        width: 20rem;
+        width: 40rem;
     }
 }

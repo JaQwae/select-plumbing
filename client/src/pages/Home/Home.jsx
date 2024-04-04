@@ -13,7 +13,7 @@ const Home = () => {
   });
 
   return (
-    <div className='page'>
+    <div id="home-page" className='pages'>
       <section id='hero-container' className='homepage-containers'>
         <article id="slogan-container">
           <p>Trusted By Houston</p>

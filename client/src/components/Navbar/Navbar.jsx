@@ -8,20 +8,23 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
-  // let page = document.getElementsByClassName("page")[0];
-  // console.log(page)
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
     // console.log(hamburgerOpen);
 
-    // if(hamburgerOpen === false) {
-    //   page.classList.add("nav-active");
-    //   alert("hi")
-    // } else {
-    //   page.classList.remove("nav-active")
-    //   alert("bye")
-    // }
+    let page = document.getElementsByClassName("pages")[0];
+
+    if(hamburgerOpen === false) {
+      console.log((page));
+
+      page.classList.add("hidden");
+      // alert("hi")
+    } else {
+      console.log((page));
+      page.classList.remove("hidden")
+      // alert("bye")
+    }
   }
 
   return (
