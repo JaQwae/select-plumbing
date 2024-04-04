@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <div id="about-page" className='pages'>
-      <h1 id="about-page-title" className='page-title'>Welcome To Select Plumbing Let Us Serve Your Family</h1>
+      <h1 id="about-page-title" className='page-title'>From Our Family To Yours</h1>
       <section id="intro-section" className='about-page-sections'>
         <div id="intro-content-container">
           <p>Since 1992, the family Owned and operated team at Select Plumbing has been serving the City of Houston and its surrounding areas with trustworthy & reliable plumbing & leak investigation services. Our mission is to ensure that Texas families & businesses have adequate water, gas & sewage systems for all their needs. We work hard to ensure you are more than just a customer… Join The Select Family and schedule service today.</p>

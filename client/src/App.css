@@ -44,11 +44,14 @@
 .page-title{
     margin: 1rem 0rem;
     font-size: 4rem;
-    color: var(--primary-color);
-    text-shadow: 0 0 1px var(--tertiary-color);
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 600;
+    color: var(--tertiary-color);
+    /* text-shadow: 0 0 1px var(--primary-color); */
+    -webkit-text-stroke: 2px var(--primary-color);
+    /* font-family: "Bebas Neue", sans-serif;
+    font-weight: 600; */
     font-style: normal;
+    font-family: "brush-script-std", sans-serif;
+    font-weight: 400;
 }
 
 .header-line {
