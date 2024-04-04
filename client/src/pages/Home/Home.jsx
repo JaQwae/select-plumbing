@@ -18,7 +18,7 @@ const Home = () => {
         <article id="slogan-container">
           <p>Trusted By Houston</p>
           <p>Families For Over</p>
-          <p>40 Years</p>
+          <p>32 Years</p>
         </article>
         <a
           href="https://form.jotform.com/240635777814162"

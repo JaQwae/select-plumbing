@@ -3,6 +3,7 @@
     padding: 3rem 0rem;
     font-weight: 700;
     font-size: 3rem;
+    -webkit-text-stroke: 0.1px var(--primary-color);
 }
 .about-page-sections{
     display:flex;
