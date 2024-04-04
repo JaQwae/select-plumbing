@@ -5,48 +5,53 @@
             "icon": "fa-solid fa-magnifying-glass",
             "alt": "This is alt text 1",
             "title": "Inspections",
-            "serviceOne": "This is service 1",
-            "serviceTwo": "This is service 2",
-            "serviceThree": "This is service 3"
+            "serviceOne": "Sewer Line Video Inspection",
+            "serviceTwo": "Hydrostatic Test",
+            "serviceThree": "Isolation Test",
+            "serviceFour": "Water Leak under Slab",
+            "serviceFive": "Gas Testing"
         },
         {
             "id": 2,
             "icon": "fa-solid fa-toilet",
             "title": "Plumbing",
-            "serviceOne": "This is service 4",
-            "serviceTwo": "This is service 5",
-            "serviceThree": "This is service 6"
+            "serviceOne": "Repair Water Leaks",
+            "serviceTwo": "Repair/Replace Water Heater",
+            "serviceThree": "Repair/Replace Kitchen Sink & Faucets",
+            "serviceFour": "Replace Backflow Preventers",
+            "serviceFive": "Repipings"
         },
         {
             "id": 3,
             "icon": "fa-solid fa-wrench",
             "title": "Sewer",
-            "serviceOne": "This is service 7",
-            "serviceTwo": "This is service 8",
-            "serviceThree": "This is service 9"
+            "serviceOne": "Clear Sewer Stoppages",
+            "serviceTwo": "Repair/Replace sewer lines",
+            "serviceThree": "Tunnel & Replumb sewer under slab",
+            "serviceFour": "Sewer Maintenance"
         },
         {
             "id": 4,
             "icon": "fa-solid fa-house",
             "title": "Realtors",
-            "serviceOne": "This is service 10",
-            "serviceTwo": "This is service 11",
-            "serviceThree": "This is service 12"
+            "serviceOne": "Hydrostatic Test",
+            "serviceTwo": "Sewer Line Video Inspection",
+            "serviceThree": "Plumbing Inspection Report"
         }
     ],
     
     "customerReviews": [
         {
-            "review": "fdafdaf fsdaf sadf sda fs adfsa df sdf fsd f sdafd sff",
-            "name": "Betty Smith"
+            "review": "Eddy & his team are the absolute best. They are determined to get to the bottom of the problem. They are extremely honest & fair with pricing which is rare these days. ",
+            "name": "Tara Lopez"
         },
         {
-            "review": "gljkdljg fdasf sdaf asdf asdf sd fsd fsd fds f sdfsdgdgfdgdfzg gdfgadfgdf dlg dfgldkgj addj djg;dljgadkj gdj gdafklgdfjadfgjdfa fddafjasdjlfsa f jsakdlfjas dfkjasfjklgj dfjgdfj gdfjkgdf jgldfgj dflk",
-            "name": "Joey Doey"
+            "review": "We have used Select Plumbing for multiple repairs in our house and our rental properties. These guys are the best, from the owner to each crew member. They accurately diagnose the issue & you never have to worry about them trying to upsell you.",
+            "name": "Carlotta Baird"
         },
         {
-            "review": "Hi this is Tarik and I am unable to answer the phone right now",
-            "name": "A Lightskin"
+            "review": "Eddy quickly assessed the issue & provided multiple solutions. The work was exceptional, the price was fair & it was completed in a reasonable time frame. Thanks Eddy & team for the great work & peace of mind!",
+            "name": "NF"
         }
     ]
 }
