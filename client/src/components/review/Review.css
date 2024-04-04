@@ -40,7 +40,11 @@
 @media screen and (max-width: 1024px) {
     .google-logo{
         width:30rem;
-    }    
+    }
+    
+    .customer-review{
+        font-size: 2rem;
+    }
 }
 
 /* Phone Sizing */
@@ -51,5 +55,10 @@
 
     .customer-review{
         width:95%;
+        font-size: 1rem;
+    }
+
+    .customer-name{
+        font-size: 1rem;
     }
 }
