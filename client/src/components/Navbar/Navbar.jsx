@@ -51,7 +51,7 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu">
                 <Link to="/blog" className="nav-links ">
-                  <li className="nav-elements dropdown-item" onClick={toggleHamburger}>Blog</li>
+                  <li className="nav-elements dropdown-item" onClick={toggleHamburger}>Blogs</li>
                 </Link>
                 {/* <hr className="dropdown-divider" />
                 <Link to="/news" className="nav-links ">
