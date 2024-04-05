@@ -19,18 +19,18 @@
 @media screen and (max-width: 1024px) {
     .photo {
         height: 12rem;
-        width: 15rem;
+        /* width: 100%; */
     }
 }
 
 /* Phone Sizing */
 @media screen and (max-width: 576px) {
     .single-photo-container{
-        margin-bottom: 1rem ;
+        margin: 0rem 0.5rem 0.5rem 0.5rem;
     }
 
     .photo {
         height: 15rem;
-        width: 40rem;
+        /* width: 40rem; */
     }
 }
