@@ -4,15 +4,15 @@
             "id": 1,
             "icon": "fa-solid fa-wrench",
             "category": "Sewage",
-            "title": "Title One",
-            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "title": "Clear Sewer Stoppages ",
+            "desc": "We clear kitchen sinks, washer machine, and general drain stoppages in residential & commercial properties.",
             "link": "none"
         },
         {
             "id": 2,
             "icon": "fa-solid fa-toilet",
             "category": "Plumbing",
-            "title": "Title Two",
+            "title": "Repipings",
             "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
             "link": "https://www.google.com/search?q=placeholder+photo&tbm=isch&ved=2ahUKEwjF7-WZvIaFAxW0iO4BHXrNBicQ2-cCegQIABAA&oq=placeholder+photo&gs_lp=EgNpbWciEXBsYWNlaG9sZGVyIHBob3RvMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYBRgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHkjKMlDZBVjtMHAAeACQAQCYAaABoAHYEaoBBDkuMTK4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ6gCAMICDRAAGIAEGIoFGEMYsQPCAggQABiABBixA8ICChAAGIAEGIoFGEPCAgsQABiABBixAxiDAYgGAQ&sclient=img&ei=i738ZYX-HLSRur8P-pqbuAI&bih=724&biw=1178&prmd=ivsnmbtz&rlz=1C1VDKB_enUS1006US1006"
         },
@@ -21,15 +21,111 @@
             "id": 3,
             "icon": "fa-solid fa-magnifying-glass",
             "category": "Inspection",
-            "title": "Title Three",
-            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "title": "Sewer Line Video Inspection",
+            "desc": "Our trained staff & top of the line cameras ensure we not only accurately source your problem, but also rectify it for you & your family's peace of mind.",
             "link": "none"
         },
         {
             "id": 4,
             "icon": "fa-solid fa-house",
             "category": "Realtor",
-            "title": "Title Four",
+            "title": "Plumbing Inspection Report",
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "link": "none"
+        },
+        {
+            "id": 5,
+            "icon": "fa-solid fa-magnifying-glass",
+            "category": "Inspection",
+            "title": "Hydrostatic Test",
+            "desc": "An inflatable test ball is placed into the drainpipe to block the entire plumbing system. We then monitor the water level from the blocked toilet. A drop in the water level indicates that there are leaks somewhere in the plumbing system.",
+            "link": "none"
+        },
+        {
+            "id": 6,
+            "icon": "fa-solid fa-magnifying-glass",
+            "category": "Inspection",
+            "title": "Isolation Test",
+            "desc": "Every separate section of the plumbing system is blocked off and tested individually. Isolation testing allows us to find the exact location of the leak.",
+            "link": "none"
+        },
+        {
+            "id": 7,
+            "icon": "fa-solid fa-magnifying-glass",
+            "category": "Inspection",
+            "title": "Water Leak Under Slab",
+            "desc": "Timely identification is crucial when it comes to leaks in your home. Regardless of the leak coming from pipes under slab or other components, an undetected leak can result in significant financial losses.",
+            "link": "none"
+        },
+        {
+            "id": 8,
+            "icon": "fa-solid fa-magnifying-glass",
+            "category": "Inspection",
+            "title": "Gas Testing",
+            "desc": "N/A",
+            "link": "none"
+        },
+        {
+            "id": 9,
+            "icon": "fa-solid fa-wrench",
+            "category": "Sewage",
+            "title": "Repair/Replace Sewer Lines",
+            "desc": "We specialize in underground sewer repairs. As licensed plumbers, all repairs are up to code and follow city inspection requirements.",
+            "link": "none"
+        },
+        {
+            "id": 10,
+            "icon": "fa-solid fa-wrench",
+            "category": "Sewage",
+            "title": "Tunnel & Replumb Sewer Under Slab",
+            "desc": "We take care of the Leak Investigation and Repair process. We always mark the utility lines with Center Point before our digging crew begins the digging portion.",
+            "link": "none"
+        },
+        {
+            "id": 11,
+            "icon": "fa-solid fa-wrench",
+            "category": "Sewage",
+            "title": "Sewer Maintenance",
+            "desc": "We offer a drain cleaning service by inserting our camera and special cleaning machine simultaneously. We provide a video recording and report of the before & after.",
+            "link": "none"
+        },
+        {
+            "id": 12,
+            "icon": "fa-solid fa-toilet",
+            "category": "Plumbing",
+            "title": "Repair Water Leaks",
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "link": "none"
+        },
+        {
+            "id": 13,
+            "icon": "fa-solid fa-toilet",
+            "category": "Plumbing",
+            "title": "Repair/Replace Kitchen Sinks & Faucets",
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "link": "none"
+        },
+        {
+            "id": 14,
+            "icon": "fa-solid fa-toilet",
+            "category": "Plumbing",
+            "title": "Replace Backflow Preventers",
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "link": "none"
+        },
+        {
+            "id": 15,
+            "icon": "fa-solid fa-house",
+            "category": "Realtor",
+            "title": "Hydrostatic Test",
+            "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
+            "link": "none"
+        },
+        {
+            "id": 16,
+            "icon": "fa-solid fa-house",
+            "category": "Realtor",
+            "title": "Sewer Line Video Inspection",
             "desc": "This is the placeholder desc for the time being. I am adding this text to simulate the length of the longest text",
             "link": "none"
         }

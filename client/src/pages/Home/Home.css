@@ -45,6 +45,7 @@
     flex-direction: column;
     align-items: center;
     height: auto;
+    margin-top: 2rem;
 }
 
 #home-service-preview{
@@ -58,7 +59,7 @@
     height: 3rem;
     width: 13rem;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0rem;
 }
 
 /*-----Review Section-----*/
