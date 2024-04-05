@@ -8,6 +8,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  let screenWidth = window.innerWidth
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
@@ -15,7 +16,7 @@ const Navbar = () => {
 
     let page = document.getElementsByClassName("pages")[0];
 
-    if(hamburgerOpen === false) {
+    if(screenWidth <= 1024 && hamburgerOpen === false) {
       console.log((page));
 
       page.classList.add("hidden");
