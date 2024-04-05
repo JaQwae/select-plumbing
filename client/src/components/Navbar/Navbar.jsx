@@ -12,19 +12,13 @@ const Navbar = () => {
 
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
-    // console.log(hamburgerOpen);
 
     let page = document.getElementsByClassName("pages")[0];
 
     if(screenWidth <= 1024 && hamburgerOpen === false) {
-      console.log((page));
-
       page.classList.add("hidden");
-      // alert("hi")
     } else {
-      console.log((page));
       page.classList.remove("hidden")
-      // alert("bye")
     }
   }
 
@@ -40,7 +34,7 @@ const Navbar = () => {
           />
         </Link>
         <div className={`hamburger-menu open-${hamburgerOpen}`} onClick={toggleHamburger}>
-          <Hamburger/>
+          <Hamburger isOpen={hamburgerOpen}/>
         </div>
         </div>
         <div className={`navbar-content open-${hamburgerOpen}`}>
