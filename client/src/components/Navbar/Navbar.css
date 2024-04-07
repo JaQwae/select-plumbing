@@ -20,7 +20,7 @@
 
 #company-logo {
     height: 6rem;
-    width: 12rem;
+    width: 14rem;
 }
 
 .navbar-content {
@@ -109,6 +109,11 @@
         padding: 1rem 1.5rem;
     }
 
+    #company-logo {
+        height: 7rem;
+        width: 15rem;
+    }
+
     .hamburger-menu{
         display: flex;
         /* padding-top: 10px; */
@@ -185,11 +190,11 @@
     .navbar {
         background: rgb(255,255,255);
         background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(23,48,104,1) 100%);
-        padding: 0.5rem 1rem;
+        padding: 0.2rem 0.5rem;
     }
 
     #company-logo {
-        height: 3rem;
-        width: 6rem;
+        height: 4.5rem;
+        width: 8rem;
     }
 }

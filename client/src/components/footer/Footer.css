@@ -3,6 +3,7 @@
     display:flex;
     justify-content: space-between;
     border-top: solid var(--tertiary-color) 5px;
+    padding: 1rem 0rem;
 }
 
 .footer-links:hover {
@@ -21,9 +22,7 @@
 .footer-logo{
     height: 6rem;
     width: 13rem;
-
-    /* New styling to make the photo work */
-    height: 8rem;
+    /* padding-bottom: 1rem; */
 }
 
 .social-media-container{
@@ -205,11 +204,7 @@
     .footer-logo{
         margin-top: 1rem;
         height: 8rem;
-        /* width: 15rem; */
-
-        /* New styling to make the photo work */
-        height: 10rem;
-        margin-top: 0rem;
+        margin-bottom: 0.5rem;
         width: 18rem;
     }
 
@@ -234,13 +229,13 @@
         color:var(--secondary-color);
         background-color: var(--primary-color);
         margin: 0rem;
-        padding: 2rem 0rem;
+        padding: 3rem 0rem;
         order: 2
     }
 
     .footer-contact-header h3 {
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
+        font-size: 2.5rem;
+        margin-bottom: 0.1rem;
     }
 
     .footer-contact-header hr{

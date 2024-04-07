@@ -12,7 +12,7 @@ const Blog = () => {
   return (
     <div id="blog-page" className='pages'>
       <div className="page-header">
-        <h1 id="blog-header" className="page-title">Blog</h1>
+        <h1 id="blog-header" className="page-title">Blogs</h1>
         {/* <hr className='header-line' /> */}
       </div>
       <div id="blog-container">

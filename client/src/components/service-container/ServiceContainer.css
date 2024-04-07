@@ -14,18 +14,30 @@
 
 .homepage-service-preview{
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+
+.homepage-service-preview p{
+    text-align: center;
 }
 
 .service-container {
     background-color: var(--primary-color);
-    width: 15rem;
+    width: 17rem;
     height: 25rem;
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: var(--secondary-color);
+}
+
+.homepage-service-container{
+    height: 35rem;
+    padding: 1rem;
 }
 
 .service-container-header{
@@ -56,7 +68,7 @@
     min-height: 65%;
     max-height: 65%;
     /* background-color: red; */
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     position: relative;
 }
 
@@ -64,6 +76,9 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0rem;
 }
 
 .service-description{
@@ -74,7 +89,7 @@
     text-decoration: none;
     text-align: center;
     position: absolute;
-    bottom: 5%;
+    bottom: 0%;
     left:0;
     /* background-color: blueviolet; */
     width: 100%;

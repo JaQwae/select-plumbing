@@ -16,10 +16,26 @@
     transition: all 0.3s linear;
 }
 
+.nav-open-true {
+    .burger1{
+        transform-origin: 0.5rem 0.4rem;
+        transform: rotate(45deg);
+    }
+
+    .burger2{
+        display:none;
+    }
+
+    .burger3{
+        transform-origin: 0.5rem 0.1rem;
+        transform: rotate(-45deg);
+    }
+}
+
 /* Phone Sizing */
 @media screen and (max-width: 576px) {
     .hamburger {
-        width: 1.5rem;
+        width: 2rem;
         height: 2rem;
     }
     
@@ -30,5 +46,15 @@
         background-color: var(--tertiary-color);
         transform-origin: 1px;
         transition: all 0.3s linear;
+    }
+
+    .nav-open-true {
+        .burger1{
+            transform-origin: 0.5rem 0.15rem;
+        }
+    
+        .burger3{
+            transform-origin: 0.1rem 0rem;
+        }
     }
 }

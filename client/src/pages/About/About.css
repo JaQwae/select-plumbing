@@ -1,8 +1,8 @@
 #about-page-title{
     text-align: center;
-    padding: 3rem 0rem;
+    padding: 2rem 0rem;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
     -webkit-text-stroke: 0.1px var(--primary-color);
 }
 .about-page-sections{
